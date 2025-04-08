@@ -61,7 +61,7 @@ export default function Home() {
       title={`API ${currentVersion === 'v2' ? 'v2 ' : ''}Documentation`}
       description={
         currentVersion === 'v2'
-          ? "Dive into ProductDB's API v2 documentation, offering advanced features and functionalities."
+          ? "Dive into OSPI's API v2 documentation, offering advanced features and functionalities."
           : "Explore the comprehensive API documentation provided by ProductDB. Learn how to integrate and leverage ProductDB's API."
       }
       noFooter
@@ -69,7 +69,7 @@ export default function Home() {
     >
       <Head>
         {/* Load styles for Stoplight Elements */}
-        <title>API Documentation | ProductDB Docs</title>
+        <title>API Documentation | OSPI Docs</title>
         <link rel="preload" href="/assets/css/elements.min.css" as="style" />
         <link rel="stylesheet" href="/assets/css/elements.min.css" />
         <meta
