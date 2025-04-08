@@ -143,8 +143,8 @@ body {
 :root {
   --docs-color-primary: #2160fd;
   /* --docs-color-primary-100: #1a90ff; */
-  --docs-color-primary-tint: rgba(33, 96, 253, 0.16);
-  --docs-color-primary-tint-light: rgba(33 96 253/0.24);
+  --docs-color-primary-tint: rgba(248,87,166, 0.16);
+  --docs-color-primary-tint-light: rgba(248,87,166/0.24);
 
   --docs-color-border: #dadde1;
 
