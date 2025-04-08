@@ -1,0 +1,7 @@
+# Algolia-Crawler-Verif: D025C2A68DE1BF1B
+
+User-agent: *
+Disallow: /tags/
+Sitemap: https://productdb.io/sitemap.xml
+Sitemap: https://productdb.io/blog/sitemap.xml
+Sitemap: https://productdb.dev/sitemap.xml
