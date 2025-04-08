@@ -13,7 +13,7 @@ const explanationSteps: { [key: number]: { title: string; desc: string } } = {
   },
   2: {
     title: "Create meeting on ProductDB",
-    desc: "Your server now makes a POST request to ProductDB REST API [/v2/meetings](https://docs.dyte.io/api#/operations/create_meeting) endpoint to create a new meeting",
+    desc: "Your server now makes a POST request to ProductDB REST API [/v2/meetings](https://docs.ospi-international.org//api#/operations/create_meeting) endpoint to create a new meeting",
   },
   3: {
     title: "Handle the response",
@@ -29,7 +29,7 @@ const explanationSteps: { [key: number]: { title: string; desc: string } } = {
   },
   6: {
     title: "Add participant on ProductDB",
-    desc: "Your server now makes a **POST** request to the [Add Participant](https://docs.dyte.io/api#/operations/add_participant) endpoint to generate a token",
+    desc: "Your server now makes a **POST** request to the [Add Participant](https://docs.ospi-international.org//api#/operations/add_participant) endpoint to generate a token",
   },
   7: {
     title: "Forward the response",

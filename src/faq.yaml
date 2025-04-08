@@ -56,7 +56,7 @@
 - question: What are Presets?
   tags: ["General"]
   answer: |-
-    A set of roles, UI elements, buttons, and configurations that determines how the meeting will appear for a specific participant. Presets can be created using [Developer Portal](https://dev.dyte.io/roles-presets) as well as [REST APIs](https://docs.dyte.io/api#/operations/post-presets). Learn more: [DytePermissionsPreset](/rn-core/reference/DytePermissionsPreset#module_DytePermissionsPreset).
+    A set of roles, UI elements, buttons, and configurations that determines how the meeting will appear for a specific participant. Presets can be created using [Developer Portal](https://dev.dyte.io/roles-presets) as well as [REST APIs](https://docs.ospi-international.org//api#/operations/post-presets). Learn more: [DytePermissionsPreset](/rn-core/reference/DytePermissionsPreset#module_DytePermissionsPreset).
 
 - question: What are Core SDKs used for?
   tags: ["General"]
@@ -74,7 +74,7 @@
 - question: What is the Plugin SDK?
   tags: ["General"]
   answer: |-
-    You can use [ProductDB plugin SDKs](https://docs.dyte.io/plugin-sdk) to add third-party plugins to experience the most immersive, collaborative, and more human interaction right in your video and audio calls. ProductDB provides multiple out-of-the-box plugins, for example, YouTube, Miro, WhiteBoard, and so on.
+    You can use [ProductDB plugin SDKs](https://docs.ospi-international.org//plugin-sdk) to add third-party plugins to experience the most immersive, collaborative, and more human interaction right in your video and audio calls. ProductDB provides multiple out-of-the-box plugins, for example, YouTube, Miro, WhiteBoard, and so on.
 
 - question: How to access API Keys and other details from the Developer Portal?
   tags: ["General"]
