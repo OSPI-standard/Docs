@@ -10,7 +10,7 @@ const meta = {
   title: 'ProductDB Docs',
   tagline:
     'Explore comprehensive documentation for ProductDB, including guides, references, and best practices.',
-  url: 'https://productdb.dev',
+  url: 'https://docs.ospi-international.org',
   baseUrl: '/',
   favicon: '/favicon.ico',
   i18n: {
