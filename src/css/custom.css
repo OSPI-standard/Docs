@@ -141,7 +141,7 @@ body {
 
 /* Ospi Docs Tokens */
 :root {
-  --docs-color-primary: #2160fd;
+  --docs-color-primary: #F857A6;
   /* --docs-color-primary-100: #1a90ff; */
   --docs-color-primary-tint: rgba(248,87,166, 0.16);
   --docs-color-primary-tint-light: rgba(248,87,166/0.24);
@@ -1294,7 +1294,7 @@ h2.anchor > code {
 }
 .cta_button {
   padding: 16px 32px;
-  background-color: #2160fd;
+  background-color: #F857A6;
   color: white;
   border-radius: 8px;
   text-decoration: none;
@@ -1320,14 +1320,14 @@ h2.anchor > code {
 }
 
 .code-viewer .highlight {
-  background: #1ea7fd2b;
+  background: #c40863;
   border-radius: 4px;
 }
 
 .code-viewer .tooltip {
-  border: 1px solid #1ea7fd55;
+  border: 1px solid #93064a;
   border-radius: 2px;
-  background: #1ea7fd2b;
+  background: #490325;
   padding: 3px 6px 3px 6px;
   margin-left: 6px;
   position: relative;
