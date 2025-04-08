@@ -5,24 +5,24 @@ sidebar_position: 1
 
 # Quickstart
 
-This quickstart shows how to incorporate live video and audio into your React application using ProductDB's Core SDKs. Core SDKs offer comprehensive customization and branding capabilities, enabling you to create your own user interface (UI) from scratch, without having to deal with complex media layers.
+This quickstart shows how to incorporate live video and audio into your React application using Ospi's Core SDKs. Core SDKs offer comprehensive customization and branding capabilities, enabling you to create your own user interface (UI) from scratch, without having to deal with complex media layers.
 
 ## Objective
 
 You'll learn how to:
 
-- Install the ProductDB SDK
-- Initialize ProductDB Client
+- Install the Ospi SDK
+- Initialize Ospi Client
 - Connect to the meeting
 - Go live!
 
 ## Before Getting Started
 
-Make sure you've read the [Getting Started with ProductDB](/getting-started) topic
+Make sure you've read the [Getting Started with Ospi](/getting-started) topic
 and completed the following steps:
 
-- Create a [ProductDB Developer Account](https://dev.dyte.io/)
-- Create a [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
+- Create a [Ospi Developer Account](https://dev.dyte.io/)
+- Create a [Ospi Meeting](/api/?v=v2#/operations/create_meeting)
 - [Add Participant](/api/?v=v2#/operations/add_participant) to the meeting
 
 ## Step 1: Install the SDK
@@ -39,7 +39,7 @@ npm install @dytesdk/react-web-core
 
 To start, we need to initialize the libraries and wrap the application in the `<DyteProvider />` component. Import the `DyteProvider` from the `dytesdk/react-web-core`.
 
-The `<DyteProvider />` provides the necessary context for the various hooks to consume the `meeting` object as per their purpose. ProductDB provides the following built-in hooks for your usage:
+The `<DyteProvider />` provides the necessary context for the various hooks to consume the `meeting` object as per their purpose. Ospi provides the following built-in hooks for your usage:
 
 - `useDyteClient()`
 - `useDyteMeeting()`
@@ -78,7 +78,7 @@ You can now use the `useDyteMeeting` and `useDyteSelector` hooks as required.
 
 ## Step 3: Connect to the Meeting
 
-Now, you have established the connection with the ProductDB meeting server successfully. Next step is to join the room and leave the room once the meeting is over.
+Now, you have established the connection with the Ospi meeting server successfully. Next step is to join the room and leave the room once the meeting is over.
 
 ```jsx
 import { useDyteMeeting, useDyteSelector } from '@dytesdk/react-web-core';

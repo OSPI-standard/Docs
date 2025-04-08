@@ -7,9 +7,9 @@ const code_themes = {
 
 /** @type {import('@docusaurus/types').Config} */
 const meta = {
-  title: 'ProductDB Docs',
+  title: 'Ospi Docs',
   tagline:
-    'Explore comprehensive documentation for ProductDB, including guides, references, and best practices.',
+    'Explore comprehensive documentation for Ospi, including guides, references, and best practices.',
   url: 'https://docs.ospi-international.org',
   baseUrl: '/',
   favicon: '/favicon.ico',
@@ -502,7 +502,7 @@ const config = {
           href: '/',
           src: '/logo/light.svg',
           srcDark: '/logo/dark.svg',
-          alt: 'ProductDB Documentation | ProductDB Docs',
+          alt: 'Ospi Documentation | Ospi Docs',
           height: '40px',
           width: '101px',
         },
@@ -568,7 +568,7 @@ const config = {
           href: '/',
           src: '/logo/light.svg',
           srcDark: '/logo/dark.svg',
-          alt: 'ProductDB Documentation | ProductDB Docs',
+          alt: 'Ospi Documentation | Ospi Docs',
           height: '36px',
         },
         links: [
@@ -628,7 +628,7 @@ const config = {
             ],
           },
         ],
-        copyright: 'Copyright © ProductDB. All rights reserved.',
+        copyright: 'Copyright © Ospi. All rights reserved.',
       },
       prism: {
         theme: code_themes.light,

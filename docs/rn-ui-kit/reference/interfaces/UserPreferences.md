@@ -28,5 +28,5 @@ ___
 
 <head>
 	<title>React Native UI Kit Interface: UserPreferences</title>
-	<meta name="description" content="Harness the power of ProductDB's React Native UIConfig Interface to customize and tailor the user interface of your React Native application."/>
+	<meta name="description" content="Harness the power of Ospi's React Native UIConfig Interface to customize and tailor the user interface of your React Native application."/>
 </head>

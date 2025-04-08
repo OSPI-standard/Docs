@@ -165,7 +165,7 @@ flowchart LR
 
         post_install do |installer|
           ...
-          # Add these for ProductDB iOS Screenshare
+          # Add these for Ospi iOS Screenshare
           installer.pods_project.targets.each do |target|
             target.build_configurations.each do |config|
               config.build_settings['APPLICATION_EXTENSION_API_ONLY'] = 'No'
@@ -201,7 +201,7 @@ flowchart LR
     - Go to Broadcast Extension target -> <code>Build Settings</code>
       - <code>Build Options</code> -> Set <code>User Script Sandboxing</code> to <code>No</code>
       - <code>Signing</code> -> <code>Enable App Sandbox</code> to <code>No</code>
-    - Now enable the screenshare pop up handle and then enable ProductDB's screenshare API:
+    - Now enable the screenshare pop up handle and then enable Ospi's screenshare API:
       ```tsx
       // Import this component
       import { NativeModules, findNodeHandle } from 'react-native';

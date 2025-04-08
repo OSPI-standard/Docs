@@ -4,7 +4,7 @@ sidebar_position: 4
 sidebar_slug: transcriptions-google
 ---
 
-To add the realtime audio transcriptions in a ProductDB meeting you can use Google Cloud Speech-to-Text and Cloud translation APIs.
+To add the realtime audio transcriptions in a Ospi meeting you can use Google Cloud Speech-to-Text and Cloud translation APIs.
 
 These Google services are paid, a Google Cloud account is required to proceed.
 
@@ -70,7 +70,7 @@ Source available at (dyte-io/google-transcription)(https://github.com/dyte-io/go
 
 ### 3.2 Integrate
 
-The second step is to look for the place in your codebase where you are initiating a ProductDB meeting.
+The second step is to look for the place in your codebase where you are initiating a Ospi meeting.
 
 Once you have found the place and got a hold of the meeting object, add the following code to the file to import the SDK.
 
@@ -82,7 +82,7 @@ Add the following code just after the point where you have access to the meeting
 
 ```ts
 const speech = new DyteGoogleSpeechRecognition({
-    meeting, // ProductDB meeting object from DyteClient.init
+    meeting, // Ospi meeting object from DyteClient.init
     target: 'hi', // Language that the current user wants to see
     source: 'en-US', // Language that the current user would speak in
     baseUrl: <backend-url>, // Backend URL from step 2.2

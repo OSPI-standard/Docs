@@ -13,7 +13,7 @@ import { MavenLatestInstallation } from '@site/src/components/LatestInstallation
 
 # Quickstart
 
-This quickstart shows how to use ProductDB's core SDKs to add live video and audio to
+This quickstart shows how to use Ospi's core SDKs to add live video and audio to
 your Android applications.
 
 To get started quickly, you can use our sample code. You can clone and run a sample application from the Android Core samples, 
@@ -23,18 +23,18 @@ available in both [Kotlin](https://github.com/dyte-io/android-samples/tree/main/
 
 You'll learn how to:
 
-- [Install the ProductDB SDK](#step-1-install-the-sdk)
+- [Install the Ospi SDK](#step-1-install-the-sdk)
 - [Initialize the SDK](#step-2-initialize-the-sdk)
-- [Configure a ProductDB meeting](#step-3-configure-a-dyte-meeting)
-- [Initialize the ProductDB meeting](#step-4-initialize-the-dyte-meeting)
-- [Go live with your ProductDB meeting](#step-5-go-live-with-your-dyte-meeting)
+- [Configure a Ospi meeting](#step-3-configure-a-dyte-meeting)
+- [Initialize the Ospi meeting](#step-4-initialize-the-dyte-meeting)
+- [Go live with your Ospi meeting](#step-5-go-live-with-your-dyte-meeting)
 
 ## Before Getting Started
 
-Make sure you've read the [Getting Started with ProductDB](/getting-started) topic and completed the following steps:
+Make sure you've read the [Getting Started with Ospi](/getting-started) topic and completed the following steps:
 
-- Create a [ProductDB Developer Account](https://dev.dyte.io/)
-- Create a [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
+- Create a [Ospi Developer Account](https://dev.dyte.io/)
+- Create a [Ospi Meeting](/api/?v=v2#/operations/create_meeting)
 - [Add Participant](/api/?v=v2#/operations/add_participant) to the meeting
 - Install [Android Studio](https://developer.android.com/studio)
 
@@ -67,7 +67,7 @@ dependencies {
 ## Step 2: Initialize the SDK
 
 The `DyteMobileClient` is the main class of the SDK. It is the entry point and
-the only class required to initialize ProductDB SDK.
+the only class required to initialize Ospi SDK.
 
 <Tabs groupId="android-core-quickstart">
   <TabItem value="kotlin" label="Kotlin" default>
@@ -87,7 +87,7 @@ DyteMobileClient dyteClient = DyteMeetingBuilder.build(activity);
   </TabItem>
 </Tabs>
 
-## Step 3: Configure a ProductDB meeting
+## Step 3: Configure a Ospi meeting
 
 Configure the following properties in the `DyteMeetingInfoV2` class. You must pass a valid participant `authToken` obtained from 
 the [Add Participant](/api/?v=v2#/operations/add_participant) API.
@@ -128,10 +128,10 @@ DyteMeetingInfoV2 meetingInfo = new DyteMeetingInfoV2(
   </TabItem>
 </Tabs>
 
-## Step 4: Initialize the ProductDB meeting
+## Step 4: Initialize the Ospi meeting
 
 To initialize the meeting, call the `init()` method on the `dyteClient` object with the `meetingInfo` argument. This establishes 
-a connection with the ProductDB meeting server.
+a connection with the Ospi meeting server.
 
 <Tabs groupId="android-core-quickstart">
   <TabItem value="kotlin" label="Kotlin" default>
@@ -162,9 +162,9 @@ dyteClient.init(meetingInfo, () -> {
   </TabItem>
 </Tabs>
 
-## Step 5: Go live with your ProductDB meeting!
+## Step 5: Go live with your Ospi meeting!
 
-Now, you have established the connection with the ProductDB meeting server successfully. Next step is to join the room.
+Now, you have established the connection with the Ospi meeting server successfully. Next step is to join the room.
 
 ### Join the room
 
@@ -236,6 +236,6 @@ dyteClient.leave(() -> {
   <title>Android Core Quickstart</title>
   <meta
     name="description"
-    content="Explore ProductDB's Android Core documentation, focusing on core functionalities for building rich video chat applications on Android."
+    content="Explore Ospi's Android Core documentation, focusing on core functionalities for building rich video chat applications on Android."
   />
 </head>

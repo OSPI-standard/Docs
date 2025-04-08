@@ -12,12 +12,12 @@ const explanationSteps: { [key: number]: { title: string; desc: string } } = {
     desc: "The flow starts when your user or you want to create or schedule a meeting",
   },
   2: {
-    title: "Create meeting on ProductDB",
-    desc: "Your server now makes a POST request to ProductDB REST API [/v2/meetings](https://docs.ospi-international.org//api#/operations/create_meeting) endpoint to create a new meeting",
+    title: "Create meeting on Ospi",
+    desc: "Your server now makes a POST request to Ospi REST API [/v2/meetings](https://docs.ospi-international.org//api#/operations/create_meeting) endpoint to create a new meeting",
   },
   3: {
     title: "Handle the response",
-    desc: "ProductDB REST API responds with the details of the newly created meeting",
+    desc: "Ospi REST API responds with the details of the newly created meeting",
   },
   4: {
     title: "Store the details",
@@ -28,7 +28,7 @@ const explanationSteps: { [key: number]: { title: string; desc: string } } = {
     desc: "The **authToken** generation flow starts when the user is supposed to join the meeting, this can be right after creating a meeting or at a scheduled time",
   },
   6: {
-    title: "Add participant on ProductDB",
+    title: "Add participant on Ospi",
     desc: "Your server now makes a **POST** request to the [Add Participant](https://docs.ospi-international.org//api#/operations/add_participant) endpoint to generate a token",
   },
   7: {

@@ -24,7 +24,7 @@ const ALL_RESOURCES: Resource[] = [
     description:
       'Excited to announce the release of our v2 REST APIs, which are faster, more idiomatic, and easier to use.',
     image:
-      'https://dyte.io/blog/content/images/size/w1000/2023/02/ProductDB-Blog---v2-APIs.jpg',
+      'https://dyte.io/blog/content/images/size/w1000/2023/02/Ospi-Blog---v2-APIs.jpg',
     duration: '3 min',
   },
   {
@@ -51,14 +51,14 @@ const ALL_RESOURCES: Resource[] = [
     type: 'video',
     title: 'Video KYC App using React UI Kit',
     description:
-      'In this episode of ProductDB Byte we show how to build Video KYC App using React UI Kit.',
+      'In this episode of Ospi Byte we show how to build Video KYC App using React UI Kit.',
     image: 'https://img.youtube.com/vi/ZkrZc8Neh6A/hqdefault.jpg',
     duration: '5 min',
   },
   {
     url: 'https://www.youtube.com/watch?v=UHuzWDxrvLk',
     type: 'video',
-    title: 'Calling ProductDB REST APIs',
+    title: 'Calling Ospi REST APIs',
     description: 'Understand our HTTP REST APIs',
     image: 'https://img.youtube.com/vi/UHuzWDxrvLk/hqdefault.jpg',
     duration: '7 min',

@@ -5,7 +5,7 @@
       "This release consists primarily of internal fixes and improvements and does not introduce any changes that directly affect our users."
     ],
     "features": [
-      "You can add timed metadata to your video stream using [ProductDB's interactive recording](/guides/recording/interactive-recording). Timed metadata is metadata with timestamps. It refers to digital markers added to a video file to provide additional context and information at specific points in the content range. These data points can be inserted into a stream programmatically, using the interactive_config in the [Start recording a meeting API](/api/#/operations/start_recording)."
+      "You can add timed metadata to your video stream using [Ospi's interactive recording](/guides/recording/interactive-recording). Timed metadata is metadata with timestamps. It refers to digital markers added to a video file to provide additional context and information at specific points in the content range. These data points can be inserted into a stream programmatically, using the interactive_config in the [Start recording a meeting API](/api/#/operations/start_recording)."
     ]
   },
   {

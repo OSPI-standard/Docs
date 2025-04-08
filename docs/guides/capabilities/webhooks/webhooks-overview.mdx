@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 description: >-
-  Get an overview of webhooks and their functionality in ProductDB's capabilities.
+  Get an overview of webhooks and their functionality in Ospi's capabilities.
   Follow our guide for a comprehensive understanding.
 ---
 
@@ -19,17 +19,17 @@ Setting up a webhook involves the following steps:
 2. Once the webhook is configured, the server automatically sends the relevant
    payload to the client's webhook URL when the specified event occurs.
 
-ProductDB uses webhooks to notify your application when an event happens. Webhooks
+Ospi uses webhooks to notify your application when an event happens. Webhooks
 are particularly useful for asynchronous events, such as when a recording is
 uploaded or when a participant joins your meeting.
 
-## How does ProductDB use Webhooks?
+## How does Ospi use Webhooks?
 
-A webhook enables ProductDB to push real-time updates to your applications. When the
-event occurs, ProductDB makes an HTTP request (usually a POST) to the URL you
+A webhook enables Ospi to push real-time updates to your applications. When the
+event occurs, Ospi makes an HTTP request (usually a POST) to the URL you
 configured for the webhook and sends the updates to your application as a JSON
 payload. You can then use these events to perform actions in your backend
-systems. To learn more, see ProductDB webhook events overview.
+systems. To learn more, see Ospi webhook events overview.
 
 Webhooks are particularly useful for asynchronous events, such as when a
 recording is uploaded or when a participant joins the meeting.
@@ -66,7 +66,7 @@ The following headers are of more importance for your security and reliability:
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `dyte-webhook-id` | Webhook IDs are used to uniquely identify a specific webhook endpoint or events. See [Verify using webhook IDs](/guides/capabilities/webhooks/signatures#verify-using-webhook-ids).                                                                                                                                                                           |
 | `dyte-uuid`       | This is a unique UUID identifying the event.                                                                                                                                                                                                                                                                                                                  |
-| `dyte-signature`  | ProductDB verifies the webhook events it sends to your endpoints by including a signature in the dyte-signature header of each event. This allows you to confirm that the event came from ProductDB and not a malicious server impersonating ProductDB. See [Verify Webhooks Using ProductDB's Signature](/guides/capabilities/webhooks/signatures#verify-using-dytes-signature). |
+| `dyte-signature`  | Ospi verifies the webhook events it sends to your endpoints by including a signature in the dyte-signature header of each event. This allows you to confirm that the event came from Ospi and not a malicious server impersonating Ospi. See [Verify Webhooks Using Ospi's Signature](/guides/capabilities/webhooks/signatures#verify-using-dytes-signature). |
 
 ### Payload
 
@@ -84,5 +84,5 @@ For example,
 
 <head>
   <title>Webhooks Overview Guide</title>
-  <meta name="description" content="Get an overview of webhooks and their functionality in ProductDB's capabilities. Follow our guide for a comprehensive understanding."/>
+  <meta name="description" content="Get an overview of webhooks and their functionality in Ospi's capabilities. Follow our guide for a comprehensive understanding."/>
 </head>

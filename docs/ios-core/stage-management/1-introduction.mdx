@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: Stage management in ProductDB meetings.
+description: Stage management in Ospi meetings.
 sidebar_position: 1
 tags:
   - ios-core
@@ -9,14 +9,14 @@ tags:
 
 _Below documentation is relevant for Interactive Livestream(LHLS) and Webinar(WebRTC) use cases._
 
-Instead of a traditional publish-subscribe model, where a user can publish their media and others can choose to subscribe, ProductDB
+Instead of a traditional publish-subscribe model, where a user can publish their media and others can choose to subscribe, Ospi
 comes with an optional managed configuration. In this managed configuration, a less privileged user can be configured with a
 default behavior to not publish media. The user can then request permission to publish their media, which a privileged user can
 choose to grant or deny.
 
 ### Accessing the Stage APIs
 
-ProductDB's stage management APIs allow users to perform actions such as joining and leaving the stage, managing stage requests and
+Ospi's stage management APIs allow users to perform actions such as joining and leaving the stage, managing stage requests and
 permissions, and kicking participants from the stage. These APIs are accessible through the `meeting.stage` object.
 
 ### Stage Status
@@ -118,7 +118,7 @@ extension WebinarViewModel: DyteStageEventListener {
 }
 ```
 
-Next, we'll explore the Stage Management APIs for hosts, allowing them to manage stage requests, participants in ProductDB meetings.
+Next, we'll explore the Stage Management APIs for hosts, allowing them to manage stage requests, participants in Ospi meetings.
 
 <head>
   <title>iOS Core Stage Introduction</title>

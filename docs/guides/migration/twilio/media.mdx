@@ -13,7 +13,7 @@ In Twilio all the media operations are done using a publish subscribe model. Eg 
 4. Subscribe to the track on the remote peer if required
 5. Render the track
 
-While this level of manual control is available on ProductDB, but the default behaviour is much simpler
+While this level of manual control is available on Ospi, but the default behaviour is much simpler
 
 ```js
 meeting.self.enableVideo();
@@ -23,7 +23,7 @@ It will internally acquire, publish, make the remote peer subscribe to the track
 
 ## Video
 
-While Twilio requires [additional configuration to set the quality of the video](https://www.twilio.com/docs/video/tutorials/developing-high-quality-video-applications), ProductDB handles the video quality automatically based on network conditions and device capabilities. In low bandwidth environments ProductDB prioritizes audio and FPS over video resolution.
+While Twilio requires [additional configuration to set the quality of the video](https://www.twilio.com/docs/video/tutorials/developing-high-quality-video-applications), Ospi handles the video quality automatically based on network conditions and device capabilities. In low bandwidth environments Ospi prioritizes audio and FPS over video resolution.
 
 **Twilio**
 
@@ -55,7 +55,7 @@ const localMediaContainer = document.getElementById('twilio-self-view');
 localMediaContainer!.appendChild(localVideoTrack.attach());
 ```
 
-**ProductDB**
+**Ospi**
 
 To acquire and publish
 
@@ -84,7 +84,7 @@ twilioRoom.localParticipant.videoTracks.forEach((publication) => {
 });
 ```
 
-**ProductDB**
+**Ospi**
 
 ```tsx
 meeting.self.disableVideo();
@@ -94,7 +94,7 @@ meeting.self.disableVideo();
 
 **Twilio**
 
-Twilio emits  `participantConnected` and `trackSubscribed` events, ProductDB emits a similar`videoUpdate` (but you don't need to listen for this event)
+Twilio emits  `participantConnected` and `trackSubscribed` events, Ospi emits a similar`videoUpdate` (but you don't need to listen for this event)
 
 ```tsx
 twilioRoom.on('participantConnected', (participant) => {
@@ -111,7 +111,7 @@ twilioRoom.on('participantConnected', (participant) => {
 });
 ```
 
-**ProductDB**
+**Ospi**
 
 ```tsx
 meeting.participants.active.on('videoUpdate', (participant) => {
@@ -153,7 +153,7 @@ const audioElement = localAudioTrack.attach();
 document.body.appendChild(audioElement);
 ```
 
-**ProductDB**
+**Ospi**
 
 ```tsx
 meeting.self.enableAudio();
@@ -169,7 +169,7 @@ twilioRoom.localParticipant.audioTracks.forEach((publication) => {
 });
 ```
 
-**ProductDB**
+**Ospi**
 
 ```tsx
 meeting.self.disableAudio();

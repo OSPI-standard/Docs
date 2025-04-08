@@ -65,7 +65,7 @@ as chat messages, polls, room name, etc.
 <a name="module_DyteClient+ai"></a>
 
 ### meeting.ai
-The `ai` object is used to interface with ProductDB's AI features.
+The `ai` object is used to interface with Ospi's AI features.
 You can obtain the live meeting transcript and use other meeting AI
 features such as summary, and agenda using this object.
 

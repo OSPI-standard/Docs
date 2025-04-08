@@ -55,5 +55,5 @@ ___
 
 <head>
 	<title>Angular UI Kit Interface: Notification</title>
-	<meta name="description" content="Understand the Notification interface in ProductDB's Angular UI Kit Reference for comprehensive information."/>
+	<meta name="description" content="Understand the Notification interface in Ospi's Angular UI Kit Reference for comprehensive information."/>
 </head>

@@ -251,13 +251,13 @@ ___
 
 ▸ **provideDyteDesignSystem**(`el`, `tokens`): `void`
 
-Provides the design system new tokens to consume values from for styling the ProductDB UI Kit's UI.
+Provides the design system new tokens to consume values from for styling the Ospi UI Kit's UI.
 
 #### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `el` | `HTMLElement` | The element/node you want to _provide_ ProductDB's design system. |
+| `el` | `HTMLElement` | The element/node you want to _provide_ Ospi's design system. |
 | `tokens` | `DesignTokens` | The design tokens you want to updated. |
 
 #### Returns
@@ -287,5 +287,5 @@ Return value of emitting the event
 
 <head>
 	<title>React Native UI Kit Reference</title>
-	<meta name="description" content="Explore the comprehensive React Native Reference documentation by ProductDB. Find detailed information and examples for a smooth integration experience."/>
+	<meta name="description" content="Explore the comprehensive React Native Reference documentation by Ospi. Find detailed information and examples for a smooth integration experience."/>
 </head>

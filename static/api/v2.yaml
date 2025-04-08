@@ -7,7 +7,7 @@ servers:
     variables: {}
 info:
   version: v2
-  title: ProductDB REST APIs
+  title: Ospi REST APIs
   description: |-
     ## Rate Limiting
 
@@ -39,7 +39,7 @@ info:
 
     ### Why Do You Set a Rate Limit?
 
-    Rate limiting is required to prevent the network from becoming overloaded as a result of numerous requests. This could be due to hacking activity, overuse of the ProductDB APIs by a bot, or a bug in the code. Setting a rate limit helps to prevent this type of API overuse.
+    Rate limiting is required to prevent the network from becoming overloaded as a result of numerous requests. This could be due to hacking activity, overuse of the Ospi APIs by a bot, or a bug in the code. Setting a rate limit helps to prevent this type of API overuse.
 
     Setting a rate limit also protects us from various types of attacks, such as:
     - [Brute Force Attack](https://www.fortinet.com/resources/cyberglossary/brute-force-attack)
@@ -139,7 +139,7 @@ paths:
             default: false
           in: query
           name: exclude_meetings
-          description: Exclude the ProductDB meetings that are livestreamed.
+          description: Exclude the Ospi meetings that are livestreamed.
         - schema:
             type: integer
           in: query
@@ -298,7 +298,7 @@ paths:
                       total_count: 1
                       start_offset: 1
                       end_offset: 1
-      description: 'Returns details of livestreams associated with the given organization ID. It includes livestreams created by your organization and ProductDB meetings that are livestreamed by your organization. If you only want details of livestreams created by your organization and not ProductDB meetings, you can use the `exclude_meetings` query parameter.'
+      description: 'Returns details of livestreams associated with the given organization ID. It includes livestreams created by your organization and Ospi meetings that are livestreamed by your organization. If you only want details of livestreams created by your organization and not Ospi meetings, you can use the `exclude_meetings` query parameter.'
       tags:
         - Live streams
   '/meetings/{meeting_id}/active-livestream/stop':
@@ -2523,7 +2523,7 @@ paths:
           in: query
           name: expired
           required: false
-          description: 'If passed, only shows expired/non-expired recordings on ProductDB''s bucket'
+          description: 'If passed, only shows expired/non-expired recordings on Ospi''s bucket'
         - $ref: '#/components/parameters/search'
         - $ref: '#/components/parameters/recordingSortBy'
         - $ref: '#/components/parameters/sortOrder'
@@ -3689,7 +3689,7 @@ components:
         name:
           description: Must be a unique organization name
           type: string
-          example: ProductDB
+          example: Ospi
         contact:
           type: string
           example: 778-330-2389
@@ -3744,7 +3744,7 @@ components:
         name:
           description: Must be a unique organization name
           type: string
-          example: ProductDB
+          example: Ospi
         contact:
           type: string
           example: 778-330-2389
@@ -5003,7 +5003,7 @@ components:
           type: boolean
           x-stoplight:
             id: k1f2cjsd28631
-          description: 'Controls whether recordings are uploaded to ProductDB''s bucket. If set to false, `download_url`, `audio_download_url`, `download_url_expiry` won''t be generated for a recording.'
+          description: 'Controls whether recordings are uploaded to Ospi''s bucket. If set to false, `download_url`, `audio_download_url`, `download_url_expiry` won''t be generated for a recording.'
       required:
         - enabled
     startReason:
@@ -5124,7 +5124,7 @@ components:
         id: yyo7jv040qf6o
       type: object
       description: |
-        Recording Configurations to be used for this meeting. This level of configs takes higher preference over organization level configs on the ProductDB developer portal.
+        Recording Configurations to be used for this meeting. This level of configs takes higher preference over organization level configs on the Ospi developer portal.
       properties:
         max_seconds:
           type: number
@@ -7093,7 +7093,7 @@ components:
     OrgBearer:
       type: http
       scheme: bearer
-      description: Provide auth token obtained from ProductDB CLI
+      description: Provide auth token obtained from Ospi CLI
 tags:
   - name: Meetings
   - name: Presets

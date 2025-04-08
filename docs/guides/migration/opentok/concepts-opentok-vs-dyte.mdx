@@ -2,15 +2,15 @@
 title: 'Concepts: Basics'
 sidebar_position: 1
 description: >-
-  Understand the concepts of OpenTok versus ProductDB for effective migration. Follow
+  Understand the concepts of OpenTok versus Ospi for effective migration. Follow
   our guide for a comprehensive comparison and migration strategy.
 ---
 
-This topic guides you through the standard practices utilized in OpenTok Video API and illustrates how they correspond with ProductDB's API. The main purpose of this tutorial is to support you in migrating an existing application from OpenTok to ProductDB's video and audio APIs.
+This topic guides you through the standard practices utilized in OpenTok Video API and illustrates how they correspond with Ospi's API. The main purpose of this tutorial is to support you in migrating an existing application from OpenTok to Ospi's video and audio APIs.
 
 ## Overview
 
-Here's a brief overview of the architecture used by OpenTok and ProductDB.
+Here's a brief overview of the architecture used by OpenTok and Ospi.
 
 <Tabs>
   <TabItem value="OpenTok" label="OpenTok Basic Flow">
@@ -18,31 +18,31 @@ Here's a brief overview of the architecture used by OpenTok and ProductDB.
     <img src="/static/guides/opentok-arch.png" class="arch-mig-guide"/>
     
   </TabItem>
-   <TabItem value="ProductDB" label="ProductDB Basic Flow">
+   <TabItem value="Ospi" label="Ospi Basic Flow">
     
     <img src="/static/guides/dyte-arch.png" class="arch-mig-guide" />
 
   </TabItem>
 </Tabs>
 
-For more information on how to get started with ProductDB, see [Integrate ProductDB](/getting-started#integrate-dyte).
+For more information on how to get started with Ospi, see [Integrate Ospi](/getting-started#integrate-dyte).
 
 ## Credentials
 
 To access OpenTok's API, you need an session ID and auth Token. You generate a token for each user connecting to an OpenTok session. For more information, [Token Creation Overview](https://tokbox.com/developer/guides/create-token/).
 
-ProductDB uses Organization ID and API Key that you can get from the [Developer Portal](https://dev.dyte.io).
+Ospi uses Organization ID and API Key that you can get from the [Developer Portal](https://dev.dyte.io).
 
-| **OpenTok** | **ProductDB**        |
+| **OpenTok** | **Ospi**        |
 | ----------- | --------------- |
 | Session ID  | Organization ID |
 | Auth token  | API Key         |
 
 ## Session / Meeting
 
-OpenTok utilizes Sessions to establish connections between participants, whereas ProductDB uses [Meetings](/api#/operations/create_meeting) for the same purpose.
+OpenTok utilizes Sessions to establish connections between participants, whereas Ospi uses [Meetings](/api#/operations/create_meeting) for the same purpose.
 
-| **OpenTok** | **ProductDB**   |
+| **OpenTok** | **Ospi**   |
 | ----------- | ---------- |
 | Session     | Meeting    |
 | Session ID  | Meeting ID |
@@ -70,9 +70,9 @@ class Test {
 }
 ```
 
-In ProductDB, you make a REST API call to [Add Participant API](/api/#/operations/add_participant) which returns `authToken`.
+In Ospi, you make a REST API call to [Add Participant API](/api/#/operations/add_participant) which returns `authToken`.
 
-| **OpenTok**  | **ProductDB**  |
+| **OpenTok**  | **Ospi**  |
 | ------------ | --------- |
 | Access Token | Authtoken |
 
@@ -80,6 +80,6 @@ In ProductDB, you make a REST API call to [Add Participant API](/api/#/operation
   <title>Concepts: Basics Guide</title>
   <meta
     name="description"
-    content="Understand the concepts of OpenTok versus ProductDB for effective migration. Follow our guide for a comprehensive comparison and migration strategy."
+    content="Understand the concepts of OpenTok versus Ospi for effective migration. Follow our guide for a comprehensive comparison and migration strategy."
   />
 </head>

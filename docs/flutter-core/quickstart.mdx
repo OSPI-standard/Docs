@@ -1,7 +1,7 @@
 ---
 title: Quickstart
 description: >-
-  Dive into the core of Flutter development with ProductDB. Explore essential
+  Dive into the core of Flutter development with Ospi. Explore essential
   documentation to streamline your Flutter app integration.
 sidebar_position: 1
 tags:
@@ -12,7 +12,7 @@ slug: /
 
 # Flutter Core SDK Quickstart
 
-This quickstart shows how to use ProductDB's Flutter Core SDK to add live video and
+This quickstart shows how to use Ospi's Flutter Core SDK to add live video and
 audio call to your Flutter applications.
 
 For getting started quickly, you can use our sample code. You can clone and run
@@ -23,22 +23,22 @@ a sample application from the
 
 You'll learn how to:
 
-- Install the ProductDB SDK
+- Install the Ospi SDK
 - Initialize the SDK
-- Configure a ProductDB meeting
-- Initialize the ProductDB meeting
-- And go live with your ProductDB meeting
+- Configure a Ospi meeting
+- Initialize the Ospi meeting
+- And go live with your Ospi meeting
 
 ## Before Getting Started
 
 - Make sure you've read the
-  [Getting Started with ProductDB](/getting-started) topic and
+  [Getting Started with Ospi](/getting-started) topic and
   completed the steps in the
-  [Integrate ProductDB](/getting-started#integrate-dyte) section.
+  [Integrate Ospi](/getting-started#integrate-dyte) section.
   You must complete the following steps:
-  - Create a [ProductDB Developer Account](https://dev.dyte.io/)
+  - Create a [Ospi Developer Account](https://dev.dyte.io/)
   - Create a
-    [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
+    [Ospi Meeting](/api/?v=v2#/operations/create_meeting)
   - [Add Participant](/api/?v=v2#/operations/add_participant)
     to the meeting
 - Install Flutter on your system
@@ -54,7 +54,7 @@ You'll learn how to:
 
 ## Step 1: Install the SDK
 
-1. To install the SDK, add the ProductDB Core Flutter SDK dependency into the
+1. To install the SDK, add the Ospi Core Flutter SDK dependency into the
    `pubspec.yaml` file.
 
    ```dart
@@ -118,7 +118,7 @@ not debug builds, refer to the [Release Builds](#release-builds) section.
 ## Step 2: Initialize the SDK
 
 The `DyteMobileClient` is the main class of the SDK. It is the entry point and
-the only class required to initialize ProductDB SDK.
+the only class required to initialize Ospi SDK.
 
 ```dart
 final dyteClient = DyteMobileClient();
@@ -132,7 +132,7 @@ participant's `authToken`.
 | Name          | Description                                                                                                                                                                                                                                                                                                               |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `authToken`   | After you've created the meeting, <br/> add each participant to the meeting <br/> using the [Add Participant API](/api?v=v2#/operations/add_participant)<br/> (The presetName created earlier <br/> must be passed in the body <br/> of the Add Participant API request) <br/> The API response contains the `authToken`. |
-| `baseUrl`     | The base URL of the ProductDB server. Default value is `https://api.dyte.io/v2`. This is an optional argument.                                                                                                                                                                                                                 |
+| `baseUrl`     | The base URL of the Ospi server. Default value is `https://api.dyte.io/v2`. This is an optional argument.                                                                                                                                                                                                                 |
 | `enableAudio` | A boolean value to enable or disable audio in the meeting. Default value is `true`. This is an optional argument.                                                                                                                                                                                                         |
 | `enableVideo` | A boolean value to enable or disable video in the meeting. Default value is `true`. This is an optional argument.                                                                                                                                                                                                         |
 
@@ -149,7 +149,7 @@ final meetingInfo = DyteMeetingInfoV2(
 
 To initialize the connection request, call the `init()` method obtained on
 `dyteClient` with the `meetingInfo` argument. This will establish the connection
-with the ProductDB meeting server.
+with the Ospi meeting server.
 
 ```dart
 dyteClient.init(meetingInfo);
@@ -192,7 +192,7 @@ dyteClient.addMeetingRoomEventsListener(RoomStateNotifier());
 
 ## Step 5: Connect to the meeting
 
-Now, if you have established the connection with the ProductDB meeting server
+Now, if you have established the connection with the Ospi meeting server
 successfully i.e. if you received `onMeetingInitCompleted` callback, next step is to join the room.
 
 ### Join the room
@@ -301,6 +301,6 @@ end
   <title>Flutter Core Quickstart</title>
   <meta
     name="description"
-    content="Dive into the core of Flutter development with ProductDB. Explore essential documentation to streamline your Flutter app integration."
+    content="Dive into the core of Flutter development with Ospi. Explore essential documentation to streamline your Flutter app integration."
   />
 </head>

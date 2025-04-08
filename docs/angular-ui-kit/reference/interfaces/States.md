@@ -115,5 +115,5 @@ ___
 
 <head>
 	<title>Angular UI Kit Interface: States</title>
-	<meta name="description" content="Explore the States interface in ProductDB's Angular UI Kit Reference for comprehensive information."/>
+	<meta name="description" content="Explore the States interface in Ospi's Angular UI Kit Reference for comprehensive information."/>
 </head>

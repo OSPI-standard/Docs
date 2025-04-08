@@ -33,5 +33,5 @@ ___
 
 <head>
 	<title>Angular UI Kit Interface: UIConfig</title>
-	<meta name="description" content="Understand the UIConfig interface in ProductDB's Angular UI Kit Reference for detailed information."/>
+	<meta name="description" content="Understand the UIConfig interface in Ospi's Angular UI Kit Reference for detailed information."/>
 </head>

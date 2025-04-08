@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 description: >-
-  Extend the functionality of ProductDB CLI with our plugin documentation. Discover a
+  Extend the functionality of Ospi CLI with our plugin documentation. Discover a
   variety of plugins and integration steps.
 ---
 
@@ -12,11 +12,11 @@ You may create, manage, and host your own custom plugins with the help of the
 
 ## Overview
 
-You can publish plugins for your organization on ProductDB. We manage only the
+You can publish plugins for your organization on Ospi. We manage only the
 client-side code for plugins, the backend for a plugin (if any) **will not** be
-hosted by ProductDB. Therefore, server-side templating is not supported in plugins.
+hosted by Ospi. Therefore, server-side templating is not supported in plugins.
 
-Every functional ProductDB plugin requires a configuration file, which is named
+Every functional Ospi plugin requires a configuration file, which is named
 `dyte-config.json` by default. This contains details about the plugin such as
 the `pluginId`, `name`, `version`, `description`, etc. This file is
 auto-generated upon running the `dyte plugins create` command, which is
@@ -37,13 +37,13 @@ In order to create and publish a plugin, you need to do the following.
 4. Modify the `dyte-config.json` file to update the version and the files that
    will be included and excluded while generating the plugin archive.
 5. Run `dyte plugins publish -l` or `dyte plugins publish --latest` to upload
-   and serve your plugin on ProductDB.
+   and serve your plugin on Ospi.
 
 ## Usage
 
 ### Creating a plugin
 
-You can use the following subcommand to create a new ProductDB plugin. This sends an
+You can use the following subcommand to create a new Ospi plugin. This sends an
 API request to register a new plugin under your organization. Additionally, it
 creates a file called `dyte-config.json`, which is essential for the plugin to
 function properly.
@@ -104,7 +104,7 @@ dyte plugins pack
 
 ### Publishing a plugin
 
-The `publish` subcommand handles publishing a plugin on ProductDB. You must run this
+The `publish` subcommand handles publishing a plugin on Ospi. You must run this
 command in the directory where the `dyte-config.json` and the `index.html` files
 of your plugin are present. In the `dyte-config.json`, you can also describe the
 files you want to include in and exclude from the archive. In order to publish a
@@ -131,7 +131,7 @@ dyte plugins publish -l
 ### Unpublishing a plugin
 
 The `unpublish` subcommand can be used if you want do not want your plugin to
-show up on the ProductDB plugins panel. The `pluginId` is required.
+show up on the Ospi plugins panel. The `pluginId` is required.
 
 ```shell
 dyte plugins unpublish
@@ -147,7 +147,7 @@ required for each of these subcommands.
 
 ### List
 
-`version list` can be used to list all versions of your ProductDB plugin.
+`version list` can be used to list all versions of your Ospi plugin.
 
 ```shell
 dyte plugins version list
@@ -155,7 +155,7 @@ dyte plugins version list
 
 ### Delete
 
-`version delete` can be used to delete a particular version of your ProductDB plugin.
+`version delete` can be used to delete a particular version of your Ospi plugin.
 This accepts the version you want to delete with the help of the `-v` option.
 
 ```shell
@@ -174,5 +174,5 @@ dyte plugins version change-latest -v <version>
 
 <head>
   <title>CLI Plugins</title>
-  <meta name="description" content="Extend the functionality of ProductDB CLI with our plugin documentation. Discover a variety of plugins and integration steps."/>
+  <meta name="description" content="Extend the functionality of Ospi CLI with our plugin documentation. Discover a variety of plugins and integration steps."/>
 </head>

@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3
 description: >-
-  Get started quickly with ProductDB's Angular UI Kit by following our step-by-step
+  Get started quickly with Ospi's Angular UI Kit by following our step-by-step
   Quickstart guide.
 ---
 
 # Quickstart
 
-This quickstart shows how to use ProductDB's UI Kit prebuilt components to add live
+This quickstart shows how to use Ospi's UI Kit prebuilt components to add live
 video and audio to your [Angular](https://angular.io/) application with minimal
 coding and a variety of meeting UI customization options.
 
@@ -18,11 +18,11 @@ and run a sample application from the
 
 ## Before Getting Started
 
-- Make sure you've read the [Getting Started with ProductDB](/getting-started) topic
+- Make sure you've read the [Getting Started with Ospi](/getting-started) topic
   and completed the following steps:
 
-  - Create a [ProductDB Developer Account](https://dev.dyte.io/)
-  - Create a [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
+  - Create a [Ospi Developer Account](https://dev.dyte.io/)
+  - Create a [Ospi Meeting](/api/?v=v2#/operations/create_meeting)
   - [Add Participant](/api/?v=v2#/operations/add_participant) to the meeting
 
 ## Step 1: Install the SDK
@@ -52,7 +52,7 @@ npm install @dytesdk/angular-ui-kit @dytesdk/web-core
 Load the `DyteComponentsModule` into your app module. This is typically the
 `app.module.ts` file.
 
-This allows you to use ProductDB's UI components in your component HTML files. For
+This allows you to use Ospi's UI components in your component HTML files. For
 more information on the components, see
 [Angular components](https://angular.io/guide/component-overview).
 
@@ -85,15 +85,15 @@ If you are using TypeScript, set `allowSyntheticDefaultImports` as true in your
 }
 ```
 
-## Step 4: Add ProductDB Meeting to the Template File
+## Step 4: Add Ospi Meeting to the Template File
 
-Load the ProductDB component to your template file (`component.html`).
+Load the Ospi component to your template file (`component.html`).
 
 ```html
 <dyte-meeting #myid></dyte-meeting>
 ```
 
-## Step 5: Initialize the ProductDB Meeting
+## Step 5: Initialize the Ospi Meeting
 
 1. Get a reference to the meeting component using @ViewChild().
 2. Call the init() method and pass the authToken.
@@ -127,5 +127,5 @@ class AppComponent {
 
 <head>
   <title>Angular UI Kit Quickstart</title>
-  <meta name="description" content="Get started quickly with ProductDB's Angular UI Kit by following our step-by-step Quickstart guide."/>
+  <meta name="description" content="Get started quickly with Ospi's Angular UI Kit by following our step-by-step Quickstart guide."/>
 </head>

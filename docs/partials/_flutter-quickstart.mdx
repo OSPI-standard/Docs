@@ -4,12 +4,12 @@ import TabItem from '@theme/TabItem';
 ## Quickstart
 
 <span class="mb-2 block">
-  This quickstart shows how to add ProductDB's {props.product} SDK to your Flutter
+  This quickstart shows how to add Ospi's {props.product} SDK to your Flutter
   applications
 </span>
 
 <span class="mb-2 block">
-  Further down this guide we also explain how ProductDB's UI component library can
+  Further down this guide we also explain how Ospi's UI component library can
   help to build your UI faster with components specially made for{' '}
   {props.product} applications.
 </span>
@@ -70,9 +70,9 @@ flutter pub add dyte_uikit
   <string>For people to hear you during meetings, we need access to your microphone.</string>
   ```
 
-## Step 3: Configure a ProductDB meeting
+## Step 3: Configure a Ospi meeting
 
-To initiate ProductDB Meeting for any participant you just need to pass `authToken` as an argument. You can get the `authToken` via the [Add Participant API](/api?v=v2#/operations/add_participant).
+To initiate Ospi Meeting for any participant you just need to pass `authToken` as an argument. You can get the `authToken` via the [Add Participant API](/api?v=v2#/operations/add_participant).
 
 | Name        | Description                                                                                                                                                                                                                                                                                                               |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -87,7 +87,7 @@ final meetingInfoV2 = DyteMeetingInfoV2(authToken: '<auth_token>');
 ## Step 4: Initialize the SDK
 
 The `DyteUIKit` is the main class of the SDK. It is the entry point and the only
-class required to initialize ProductDB UI Kit SDK.
+class required to initialize Ospi UI Kit SDK.
 
 ```dart
 /* Passing the DyteMeetingInfoV2 object `meetingInfoV2` you created in the Step 3,

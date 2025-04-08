@@ -151,11 +151,11 @@ const company = [
 ];
 
 const comparisons = [
-  { name: 'ProductDB vs Raw WebRTC', href: 'https://dyte.io/webrtc-alternative' },
-  { name: 'ProductDB vs Agora', href: 'https://dyte.io/agora-competitor' },
-  { name: 'ProductDB vs Zoom', href: 'https://dyte.io/zoom-sdk-competitor' },
-  { name: 'ProductDB vs Twilio', href: 'https://dyte.io/twilio-video-competitor' },
-  { name: 'ProductDB vs Vonage', href: 'https://dyte.io/vonage-video-alternative' },
+  { name: 'Ospi vs Raw WebRTC', href: 'https://dyte.io/webrtc-alternative' },
+  { name: 'Ospi vs Agora', href: 'https://dyte.io/agora-competitor' },
+  { name: 'Ospi vs Zoom', href: 'https://dyte.io/zoom-sdk-competitor' },
+  { name: 'Ospi vs Twilio', href: 'https://dyte.io/twilio-video-competitor' },
+  { name: 'Ospi vs Vonage', href: 'https://dyte.io/vonage-video-alternative' },
   {
     name: 'View 14 more',
     isAccordion: true,
@@ -346,7 +346,7 @@ export default function Footer() {
       <div className="mx-auto flex w-full max-w-[1080px] flex-col px-6 py-12">
         <div className="mb-12 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <ThemedImage
-            alt="ProductDB"
+            alt="Ospi"
             className="h-9 w-fit lg:h-12"
             sources={{
               light: '/logo/dyte.svg',
@@ -389,14 +389,14 @@ export default function Footer() {
             </Link>
             &bull;
             <span className="text-inherit dark:text-[#999]">
-              &copy; {new Date().getFullYear()} ProductDB.
+              &copy; {new Date().getFullYear()} Ospi.
             </span>
           </div>
 
           <div className="flex items-center gap-4">
             <Link
               href="https://github.com/productdb"
-              aria-label="ProductDB's GitHub Organization"
+              aria-label="Ospi's GitHub Organization"
             >
               <Github className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
@@ -406,12 +406,12 @@ export default function Footer() {
             >
               <Linkedin className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
-            <Link href="https://x.com/ProductDB_io" aria-label="Twitter">
+            <Link href="https://x.com/Ospi_io" aria-label="Twitter">
               <XIcon className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>
             <Link
               href="https://www.youtube.com/@productdb"
-              aria-label="ProductDB's YouTube Channel"
+              aria-label="Ospi's YouTube Channel"
             >
               <Youtube className="h-7 w-7 text-zinc-400 hover:text-primary" />
             </Link>

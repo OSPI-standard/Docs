@@ -12,7 +12,7 @@ export default function FooterLayout({ style, links, logo, copyright }) {
       <div className="container-fluid container">
         {logo && <div className="margin-bottom--sm">{logo}</div>}
         <p className="footer__description mb-8">
-          ProductDB provides developer friendly live video SDKs that allows you to
+          Ospi provides developer friendly live video SDKs that allows you to
           easily add 1:1 calls, group calls and webinars right within your
           platform. Our low code approach and user friendly documentation means
           you are ready to go live with less lines of code. We support use cases

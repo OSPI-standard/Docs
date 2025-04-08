@@ -62,7 +62,7 @@ export default function Home() {
       description={
         currentVersion === 'v2'
           ? "Dive into OSPI's API v2 documentation, offering advanced features and functionalities."
-          : "Explore the comprehensive API documentation provided by ProductDB. Learn how to integrate and leverage ProductDB's API."
+          : "Explore the comprehensive API documentation provided by Ospi. Learn how to integrate and leverage Ospi's API."
       }
       noFooter
       wrapperClassName="api-reference"
@@ -74,7 +74,7 @@ export default function Home() {
         <link rel="stylesheet" href="/assets/css/elements.min.css" />
         <meta
           name="description"
-          content="Explore the comprehensive API documentation provided by ProductDB. Learn how to integrate and leverage ProductDB's API."
+          content="Explore the comprehensive API documentation provided by Ospi. Learn how to integrate and leverage Ospi's API."
         ></meta>
       </Head>
 

@@ -11,7 +11,7 @@ export const stepsTwo = [
   {
     step: 8,
     title: 'Initialize SDK',
-    desc: `On the client side, the first interaction with the ProductDB
+    desc: `On the client side, the first interaction with the Ospi
     library is to initialize it with the token from the previous
     steps. After this step the SDK initializes all network and
     media related capabilities and  you can render your pre-call
@@ -39,7 +39,7 @@ return (
   {
     step: 9,
     title: 'Initialize SDK',
-    desc: `On the client side, the first interaction with the ProductDB
+    desc: `On the client side, the first interaction with the Ospi
     library is to initialize it with the token from the previous
     steps. After this step, the SDK initializes all network and
     media related capabilities, you can render your pre-call

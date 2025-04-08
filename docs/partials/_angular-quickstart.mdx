@@ -6,12 +6,12 @@ import {
 ## Quickstart
 
 <span class="mb-2 block">
-  This quickstart shows how to add ProductDB's {props.product} SDK to your{' '}
+  This quickstart shows how to add Ospi's {props.product} SDK to your{' '}
   <a href="https://angular.io/">Angular</a> applications.
 </span>
 
 <span class="mb-2 block">
-  Further down this guide we also explain how ProductDB's UI component library can
+  Further down this guide we also explain how Ospi's UI component library can
   help to build your UI faster with components specially made for{' '}
   {props.product} applications.
 </span>
@@ -25,12 +25,12 @@ and run a sample application from the
 
 Make sure you've a mechanism to get `authToken` from your server-side, which you would have received as part of [Add Participant](/guides/classification/build-live-video-app#step-2-add-participants) call.
 
-## Step 1: Install ProductDB SDK packages
+## Step 1: Install Ospi SDK packages
 
 To begin, install the following packages:
 
 - `@dytesdk/web-core`: This core package powers video, voice, livestream and chat SDKs. This is a required package.
-- `@dytesdk/ui-kit`: This package includes ProductDB UI components which can be used with core to easily build your own UI, including a prebuilt UI component. You can skip installing this package if you wish to build your own UI from scratch.
+- `@dytesdk/ui-kit`: This package includes Ospi UI components which can be used with core to easily build your own UI, including a prebuilt UI component. You can skip installing this package if you wish to build your own UI from scratch.
 
 You can install the SDKs using CDN, npm, or Yarn.
 
@@ -66,12 +66,12 @@ class AppComponent {
 }
 ```
 
-Now, you have established the connection with the ProductDB meeting server successfully.
+Now, you have established the connection with the Ospi meeting server successfully.
 
 ## Step 3: Bring up the UI
 
 The `meeting` object serves as the link between web-core and UI Kit, allowing them to communicate with one another. Once the UI Kit has the meeting object, it can join and leave meetings, and so on.
-ProductDB offers a UI Kit that is highly customizatble and uses the `meeting` instance that you just created.
+Ospi offers a UI Kit that is highly customizatble and uses the `meeting` instance that you just created.
 
 ### UI Kit
 
@@ -79,7 +79,7 @@ A single `<dyte-meeting />` component that is feature rich renders a complete me
 
 #### Load the `DyteComponentsModule` into your App Module
 
-This is how typically the `app.module.ts` file looks like. This allows you to use ProductDB's UI components in your component HTML files. For
+This is how typically the `app.module.ts` file looks like. This allows you to use Ospi's UI components in your component HTML files. For
 more information on the components, see
 [Angular components](https://angular.io/guide/component-overview).
 
@@ -113,7 +113,7 @@ If you are using TypeScript, perform the following steps:
 }
 ```
 
-2. Add the ProductDB meeting component to your template file (`component.html`).
+2. Add the Ospi meeting component to your template file (`component.html`).
 
 ```html
 <dyte-meeting #myid></dyte-meeting>
@@ -145,9 +145,9 @@ class AppComponent {
 
 If you want more customizations, pick the components that are needed and build the UI that suits your need using low level APIs that our core SDK offers [here](/web-core/).
 
-#### Add ProductDB Meeting to the Template File
+#### Add Ospi Meeting to the Template File
 
-Load the ProductDB component to your template file (`component.html`).
+Load the Ospi component to your template file (`component.html`).
 
 ```html {5}
 <div>

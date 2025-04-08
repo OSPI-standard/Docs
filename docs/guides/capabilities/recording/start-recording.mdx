@@ -2,23 +2,23 @@
 title: Start Recording a Meeting
 sidebar_position: 2
 description: >-
-  Explore how to start recordings with ProductDB's recording capabilities. Follow our
+  Explore how to start recordings with Ospi's recording capabilities. Follow our
   guide for effective recording initiation.
 ---
 
-This topic explains how to use ProductDB to implement composite recording.
+This topic explains how to use Ospi to implement composite recording.
 
 Before getting started with this guide, we recommend that you read
-[Getting Started with ProductDB](/getting-started) to familiarize yourself with ProductDB.
+[Getting Started with Ospi](/getting-started) to familiarize yourself with Ospi.
 
-There are three ways to start recording a ProductDB meeting:
+There are three ways to start recording a Ospi meeting:
 
 - Using the `record_on_start` flag when
   [creating a meeting](/api/?v=v2#/operations/create_meeting)
 - Using the [Start Recording API](/api/?v=v2#/operations/start_recording)
 - Client side start recording methods on the SDK
 
-ProductDB stores recordings for a period of 7 days, after which they will expire and no longer be accessible. It is important to either download a copy of your recording or [set up storage](/guides/capabilities/recording/custom-cloud-storage) before the link expires.
+Ospi stores recordings for a period of 7 days, after which they will expire and no longer be accessible. It is important to either download a copy of your recording or [set up storage](/guides/capabilities/recording/custom-cloud-storage) before the link expires.
 
 :::info note
 
@@ -49,7 +49,7 @@ If you're using this method to start the recording, you must specify the
 ### Request
 
 Specify the `record_on_start` parameter. If this flag is true, then a recording
-will be started as soon as a meeting starts on ProductDB, i.e, when the first
+will be started as soon as a meeting starts on Ospi, i.e, when the first
 participant joins the meeting.
 
 ```bash
@@ -135,6 +135,6 @@ curl --request POST \
   <title>Start Recording a Meeting Guide</title>
   <meta
     name="description"
-    content="Explore how to start recordings with ProductDB's recording capabilities. Follow our guide for effective recording initiation."
+    content="Explore how to start recordings with Ospi's recording capabilities. Follow our guide for effective recording initiation."
   />
 </head>

@@ -10,17 +10,17 @@ sidebar_slug: transcriptions-inbuilt
 The meeting transcription feature is currently in beta, which means it is still being tested and evaluated, and may undergo some change. This feature is not accessible to the public at the moment and will be activated solely upon request, subject to our team's assessment of your usage and needs. If you wish to have this feature enabled for your organization, please [get in touch with us](https://dyte.io/contact).
 :::
 
-ProductDB's meeting transcription allows you to transcribe your ProductDB meetings in real-time, making it easy to capture important discussions and refer back to them later.
+Ospi's meeting transcription allows you to transcribe your Ospi meetings in real-time, making it easy to capture important discussions and refer back to them later.
 This guide will walk you through how to use this feature effectively.
 
 :::info NOTE
-ProductDB's AI meeting transcription currently only supports English.
+Ospi's AI meeting transcription currently only supports English.
 :::
 
 ## Control transcriptions for participants using presets
 
 You can control whether or not a participant's audio will be transcribe with the help of the `transcription_enabled` flag in the participant's preset.
-All participants with the `transcription_enabled` turned on in their preset will be able to generate transcripts in real-time in a ProductDB meeting.
+All participants with the `transcription_enabled` turned on in their preset will be able to generate transcripts in real-time in a Ospi meeting.
 
 You can create a new preset on our [Developer Portal](https://dev.dyte.io/presets), or using our [REST API](/api#/operations/post-presets).
 
@@ -28,7 +28,7 @@ You can create a new preset on our [Developer Portal](https://dev.dyte.io/preset
 
 There are 3 ways in which these transcripts can be consumed.
 
-1. Client core SDK: The transcripts can be consumed on the client-side using the ProductDB SDK that's suitable for your platform. These transcripts are generated on the server in real-time.
+1. Client core SDK: The transcripts can be consumed on the client-side using the Ospi SDK that's suitable for your platform. These transcripts are generated on the server in real-time.
 2. Webhooks: The meeting transcript can be consumed via a [webhook after the meeting ends](#consume-transcript-via-a-post-meeting-webhook).
 3. REST API: The meeting transcript can also be fetched via the [rest API](/api#/operations/GetSessionTranscript).
 
@@ -60,8 +60,8 @@ You can see the webhook format [here](/guides/capabilities/webhooks/webhook-even
 
 ## Fetch the meeting transcript
 
-You do not need to rely on the webhook to get the transcript for a meeting. ProductDB provides a [REST API](/api#/operations/GetSessionTranscript) using which you can obtain the transcripts for a particular session.
-You can use this API to get the transcript for a meeting at a later time. ProductDB stores the transcript of a meeting for 7 days since the start of the meeting.
+You do not need to rely on the webhook to get the transcript for a meeting. Ospi provides a [REST API](/api#/operations/GetSessionTranscript) using which you can obtain the transcripts for a particular session.
+You can use this API to get the transcript for a meeting at a later time. Ospi stores the transcript of a meeting for 7 days since the start of the meeting.
 
 The transcript is received in the form of a CSV. Here is the format of the said CSV:
 

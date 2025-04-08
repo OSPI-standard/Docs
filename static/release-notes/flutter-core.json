@@ -34,7 +34,7 @@
     "createdAt": 1716921000,
     "fixes": [
       "Fixed `onMeetingInitFailed()` callback trigger when title is null.",
-      "Added `cleanNativeListener()` callbacks for all listeners with async method, need to be called when exiting the ProductDB Client SDK.",
+      "Added `cleanNativeListener()` callbacks for all listeners with async method, need to be called when exiting the Ospi Client SDK.",
       "Removed `onMeetingRoomConnectionError` callback, introduced `onMeetingEnded`, `onActiveTabUpdateCallback`."
     ],
     "features": [

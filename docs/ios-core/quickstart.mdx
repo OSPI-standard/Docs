@@ -14,7 +14,7 @@ import { CocoaPodInstallation } from '@site/src/components/LatestInstallation';
 
 # Quickstart
 
-This quickstart shows how to use ProductDB's core SDKs to add live video and audio to
+This quickstart shows how to use Ospi's core SDKs to add live video and audio to
 your iOS applications.
 
 To get started quickly, you can use our sample code. You can clone and run a sample application from the iOS Core samples,
@@ -24,18 +24,18 @@ available in both [Swift](https://github.com/dyte-io/ios-samples/tree/main/iOS-c
 
 You'll learn how to:
 
-- [Install the ProductDB SDK](#step-1-install-the-sdk)
+- [Install the Ospi SDK](#step-1-install-the-sdk)
 - [Initialize the SDK](#step-2-initialize-the-sdk)
-- [Configure a ProductDB meeting](#step-3-configure-a-dyte-meeting)
-- [Initialize the ProductDB meeting](#step-4-initialize-the-dyte-meeting)
-- [Go live with your ProductDB meeting](#step-5-go-live-with-your-dyte-meeting)
+- [Configure a Ospi meeting](#step-3-configure-a-dyte-meeting)
+- [Initialize the Ospi meeting](#step-4-initialize-the-dyte-meeting)
+- [Go live with your Ospi meeting](#step-5-go-live-with-your-dyte-meeting)
 
 ## Before Getting Started
 
-Make sure you've read the [Getting Started with ProductDB](/getting-started) topic and completed the following steps:
+Make sure you've read the [Getting Started with Ospi](/getting-started) topic and completed the following steps:
 
-- Create a [ProductDB Developer Account](https://dev.dyte.io/)
-- Create a [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
+- Create a [Ospi Developer Account](https://dev.dyte.io/)
+- Create a [Ospi Meeting](/api/?v=v2#/operations/create_meeting)
 - [Add Participant](/api/?v=v2#/operations/add_participant) to the meeting
 - Install [Xcode](https://apps.apple.com/in/app/xcode/id497799835)
 
@@ -119,7 +119,7 @@ meeting.addWaitlistEventListener(waitlistEventListener: self)
 meeting.addLiveStreamEventsListener(liveStreamEventsListener: self)
 ```
 
-## Step 3: Configure a ProductDB meeting
+## Step 3: Configure a Ospi meeting
 
 Add `authToken` that you got from the REST API to constructor of DyteMeetingInfoV2 - [Add Participant API](/api#/operations/addParticipant)
 
@@ -137,11 +137,11 @@ let meetingInfo = DyteMeetingInfoV2(authToken: authToken,
                                   baseUrl: "dyte.io")
 ```
 
-## Step 4: Initialize the ProductDB meeting
+## Step 4: Initialize the Ospi meeting
 
 To initialize the connection request, call the `doInit()` method obtained on
 `meeting` with the `meetingInfo` argument. This will establish the connection
-with the ProductDB meeting server.
+with the Ospi meeting server.
 
 ```swift
 meeting.doInit(dyteMeetingInfo_: meetingInfo)
@@ -171,11 +171,11 @@ meeting.doInit(dyteMeetingInfo: DyteMeetingInfoV2,
 To initialize the connection request, call the `doInit` method
 which is asynchronous and callback based.
 
-## Step 5: Go live with your ProductDB meeting
+## Step 5: Go live with your Ospi meeting
 
 ### Connect to the meeting
 
-Now, you have established the connection with the ProductDB meeting server
+Now, you have established the connection with the Ospi meeting server
 successfully. Once `onMeetingInitCompleted()` is triggered, next step is to join
 the room.
 
@@ -251,6 +251,6 @@ extension MeetingViewModel: DyteSelfEventsListener {
   <title>iOS Core Quickstart</title>
   <meta
     name="description"
-    content="Dive into ProductDB's core documentation for iOS. Follow our guide for comprehensive understanding and effective iOS core development."
+    content="Dive into Ospi's core documentation for iOS. Follow our guide for comprehensive understanding and effective iOS core development."
   />
 </head>

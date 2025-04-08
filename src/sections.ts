@@ -172,7 +172,7 @@ const SECTION_GROUPS: SectionsGroup[][] = [
     {
       name: 'Plugin SDK for Web',
       section: 'plugin-sdk',
-      description: 'Build real-time collaborative apps using ProductDB.',
+      description: 'Build real-time collaborative apps using Ospi.',
     },
   ],
 ];

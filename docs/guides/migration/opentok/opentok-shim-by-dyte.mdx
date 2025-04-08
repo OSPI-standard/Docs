@@ -1,21 +1,21 @@
 ---
-title: Migrate from OpenTok to ProductDB with Shim
+title: Migrate from OpenTok to Ospi with Shim
 sidebar_position: 2
 description: >-
-  Learn how to use the OpenTok Shim by ProductDB for seamless migration. Follow our
+  Learn how to use the OpenTok Shim by Ospi for seamless migration. Follow our
   guide for effective shim implementation and integration.
 ---
 
-The OpenTok [Shim](<https://en.wikipedia.org/wiki/Shim_(computing)>) by ProductDB is a package that allows you to migrate your video calling applications from [OpenTok](https://tokbox.com/developer/) to ProductDB infrastructure.
+The OpenTok [Shim](<https://en.wikipedia.org/wiki/Shim_(computing)>) by Ospi is a package that allows you to migrate your video calling applications from [OpenTok](https://tokbox.com/developer/) to Ospi infrastructure.
 
-- ProductDB provides a set of shim libraries that serve as seamless replacements for the Vonage video APIs (previously known as Tokbox OpenTok). These shims serve as a fundamental building block for migrating your application from OpenTok to ProductDB infrastructure.
-- The `@dytesdk/opentok-shim` package serves as a wrapper over the ProductDB SDK with an external API that is fully compatible with Opentok JS. As a drop-in replacement for Opentok JS, it can handle most of the methods and events that are present in the original library.
+- Ospi provides a set of shim libraries that serve as seamless replacements for the Vonage video APIs (previously known as Tokbox OpenTok). These shims serve as a fundamental building block for migrating your application from OpenTok to Ospi infrastructure.
+- The `@dytesdk/opentok-shim` package serves as a wrapper over the Ospi SDK with an external API that is fully compatible with Opentok JS. As a drop-in replacement for Opentok JS, it can handle most of the methods and events that are present in the original library.
 
 Please [contact us](https://dyte.io/contact) for any help or support with the migration.
 
-## Start migrating from OpenTok to ProductDB with Shim
+## Start migrating from OpenTok to Ospi with Shim
 
-To get started with the ProductDB Shim for OpenTok, do the following:
+To get started with the Ospi Shim for OpenTok, do the following:
 
 1. Install the shim from the NPM registry using the following command:
 
@@ -42,7 +42,7 @@ To create a connection to an OpenTok session, you can use the `OT.initSession()`
 - Token
 - Session ID
 
-You can obtain ProductDB authentication token `<DYTE-AUTH-TOKEN>` using the [Add a Participant API](/api#/operations/add_participant).
+You can obtain Ospi authentication token `<DYTE-AUTH-TOKEN>` using the [Add a Participant API](/api#/operations/add_participant).
 
 ```ts
 const token = '<DYTE-AUTH-TOKEN>';
@@ -99,9 +99,9 @@ session.on('connectionDestroyed', (connectionDestroyedEvent) => {
 ```
 
 <head>
-  <title>Migrate from OpenTok to ProductDB with Shim Guide</title>
+  <title>Migrate from OpenTok to Ospi with Shim Guide</title>
   <meta
     name="description"
-    content="Learn how to use the OpenTok Shim by ProductDB for seamless migration. Follow our guide for effective shim implementation and integration."
+    content="Learn how to use the OpenTok Shim by Ospi for seamless migration. Follow our guide for effective shim implementation and integration."
   />
 </head>

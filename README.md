@@ -4,10 +4,10 @@
     <img src="https://test.productdb.io/images/logo/logo-light.svg" alt="Logo" width="240">
   </a>
 
-  <h2 align="center">ProductDB Docs</h3>
+  <h2 align="center">Ospi Docs</h3>
 
   <p align="center">
-    ProductDB's documentation portal, built with Docusaurus.
+    Ospi's documentation portal, built with Docusaurus.
     <br />
     <a href="https://productdb.dev"><strong>Explore the docs »</strong></a>
     <br />
@@ -174,8 +174,8 @@ Distributed under the Apache License, Version 2.0. See [`LICENSE`](./LICENSE) fo
 
 ## About
 
-`docs` is created & maintained by ProductDB, Inc. You can find us on Twitter - [@dyte_io](https://twitter.com/dyte_io) or write to us at `dev [at] dyte.io`.
+`docs` is created & maintained by Ospi, Inc. You can find us on Twitter - [@dyte_io](https://twitter.com/dyte_io) or write to us at `dev [at] dyte.io`.
 
-The names and logos for ProductDB are trademarks of ProductDB, Inc.
+The names and logos for Ospi are trademarks of Ospi, Inc.
 
 We love open source software! See [our other projects](https://github.com/dyte-io) and [our products](https://dyte.io).

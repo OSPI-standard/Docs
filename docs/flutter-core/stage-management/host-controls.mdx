@@ -1,6 +1,6 @@
 ---
 title: Stage Host Controls
-description: Stage management APIs for Host in ProductDB meetings.
+description: Stage management APIs for Host in Ospi meetings.
 sidebar_position: 2
 tags:
   - flutter-core
@@ -8,7 +8,7 @@ tags:
 ---
 
 In a stage management-enabled meeting, a user with the `selfPermissions.host.canAcceptStageRequests` permission as `true` is
-considered a host. The `dyteMobileClient.stage` object in ProductDB's Flutter Core SDK provides stage management APIs that allow hosts to
+considered a host. The `dyteMobileClient.stage` object in Ospi's Flutter Core SDK provides stage management APIs that allow hosts to
 manage stage access requests, invite participants to the stage, and remove participants from the stage.
 
 ### List of Stage Access Requests
@@ -111,5 +111,5 @@ You need to attach the listener to meeting client as follows:
 dyteClient.addStageEventsListener(StageEventsListener())
 ```
 
-These APIs enable you to manage stage access requests and participants effectively in ProductDB meetings. Next, we'll explore the
+These APIs enable you to manage stage access requests and participants effectively in Ospi meetings. Next, we'll explore the
 Stage APIs available to Viewer participants.

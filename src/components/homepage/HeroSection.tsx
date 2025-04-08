@@ -97,10 +97,10 @@ export default function HeroSection() {
       <section className="noise-bg no-underline-links px-4 pt-16 lg:py-0">
         <div className="flex flex-col items-center justify-between py-14">
           <h2 className="mb-4 font-jakarta text-5xl font-bold">
-            Build with ProductDB
+            Build with Ospi
           </h2>
           <p className="max-w-xl text-center text-text-400">
-            At ProductDB, we're building the future of real-time stock communication.
+            At Ospi, we're building the future of real-time stock communication.
             Integrate programmable, and easily customizable product information
             into your web, mobile, and desktop applications with just a few
             lines of code.

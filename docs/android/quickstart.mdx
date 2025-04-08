@@ -2,7 +2,7 @@
 sidebar_position: 1
 slug: /
 description: >-
-  Dive into ProductDB's Android documentation to integrate video collaboration
+  Dive into Ospi's Android documentation to integrate video collaboration
   seamlessly into your Android applications.
 ---
 
@@ -10,7 +10,7 @@ import { MavenLatestInstallation } from '@site/src/components/LatestInstallation
 
 # Quickstart
 
-This quickstart shows how to use ProductDB's Android UI Kit SDK to add live video and
+This quickstart shows how to use Ospi's Android UI Kit SDK to add live video and
 audio to your Android applications.
 
 To get started quickly, you can use our sample code. Simply clone and run a sample application
@@ -20,22 +20,22 @@ from the Android UIKit samples, available in both [Kotlin](https://github.com/dy
 
 You'll learn how to:
 
-- [Install the ProductDB SDK](#step-1-install-the-sdk-from-mavencentral)
-- [Configure a ProductDB meeting](#step-2-configure-a-dyte-meeting)
+- [Install the Ospi SDK](#step-1-install-the-sdk-from-mavencentral)
+- [Configure a Ospi meeting](#step-2-configure-a-dyte-meeting)
 - [Initialize the SDK](#step-3-initialize-the-sdk)
 - [Launch the meeting UI](#step-4-launch-the-meeting-ui)
 
 ## Before Getting Started
 
 Make sure you've read the
-[Getting Started with ProductDB](/getting-started) topic and
+[Getting Started with Ospi](/getting-started) topic and
 completed the steps in the
-[Integrate ProductDB](/getting-started#integrate-dyte) section.
+[Integrate Ospi](/getting-started#integrate-dyte) section.
 You must complete the following steps:
 
-- Create a [ProductDB Developer Account](https://dev.dyte.io/)
+- Create a [Ospi Developer Account](https://dev.dyte.io/)
 - Create a
-  [ProductDB Meeting](/api/?v=v2#/operations/create_meeting)
+  [Ospi Meeting](/api/?v=v2#/operations/create_meeting)
 - [Add Participant](/api/?v=v2#/operations/add_participant)
   to the meeting
 - Install [Android Studio](https://developer.android.com/studio)
@@ -68,7 +68,7 @@ dependencies {
 
 :::
 
-## Step 2: Configure a ProductDB meeting
+## Step 2: Configure a Ospi meeting
 
 Configure the following properties in the `DyteMeetingInfoV2` class. You must pass a valid participant `authToken`
 obtained from the [Add Participant](/api/?v=v2#/operations/add_participant) API.
@@ -78,7 +78,7 @@ obtained from the [Add Participant](/api/?v=v2#/operations/add_participant) API.
 | `authToken`   | Authentication token generated using the [Add Participant API](/api/?v=v2#/operations/add_participant) after meeting creation. |
 | `enableAudio` | Set whether to join the meeting with your Mic ON (`true`) or OFF (`false`).                                                    |
 | `enableVideo` | Set whether to join the meeting with your Camera ON (`true`) or OFF (`false`).                                                 |
-| `baseUrl`     | Base URL of the ProductDB environment you have created the meeting on.                                                              |
+| `baseUrl`     | Base URL of the Ospi environment you have created the meeting on.                                                              |
 
 <Tabs groupId="dyte-android-uikit">
   <TabItem value="kotlin" label="Kotlin" default>
@@ -168,6 +168,6 @@ dyteUIKit.startMeeting();
   <title>Android Quickstart</title>
   <meta
     name="description"
-    content="Dive into ProductDB's Android documentation to integrate video collaboration seamlessly into your Android applications."
+    content="Dive into Ospi's Android documentation to integrate video collaboration seamlessly into your Android applications."
   />
 </head>

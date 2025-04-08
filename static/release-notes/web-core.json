@@ -172,7 +172,7 @@
     ],
     "new_api": [
       "Webinar and Livestream now both use the same [Stage Management APIs](./stage)",
-      "By default ProductDB's media handler does not prefer virtual devices, adds a new function to override what is a preferred device and what isn't",
+      "By default Ospi's media handler does not prefer virtual devices, adds a new function to override what is a preferred device and what isn't",
       "Allow [updating video resolution at runtime](./local-user/extras#update-media-resolution-at-runtime)",
       "New baseURI to replace the old apiBase. With this new parameter all network connections including socket connections can now be whitelisted",
       "Render `active` participants as Picture-in-Picture through [a simple new API](./participants/pip)",

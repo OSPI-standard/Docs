@@ -1,15 +1,15 @@
 ---
 sidebar_position: 4
 description: >-
-  Customize the meeting UI of your Android application using ProductDB Docs as your
+  Customize the meeting UI of your Android application using Ospi Docs as your
   guide.
 ---
 
 # Customize your Meeting UI
 
-ProductDB provides a range of UI customizations for meetings, including defining participant interactions within a meeting room. The default values for these options are set to facilitate integration. However, you have the flexibility to override them at the client end to suit specific use cases or events.
+Ospi provides a range of UI customizations for meetings, including defining participant interactions within a meeting room. The default values for these options are set to facilitate integration. However, you have the flexibility to override them at the client end to suit specific use cases or events.
 
-When configuring a ProductDB meeting, you can pass the following configuration options.
+When configuring a Ospi meeting, you can pass the following configuration options.
 
 ```kotlin
 val imarticusColors = ColorTokens(
@@ -69,11 +69,11 @@ Here is a visual representation showcasing all the defined configuration options
 ![meeting UI screenshot with labeled parts](/static/mobile/0.x.x/mobile-opt1-meeting.png)
 ![meeting UI screenshot with labeled parts](/static/mobile/0.x.x/mobile-opt1-meeting-options.png)
 
-ProductDB provides customization options for adjusting the color, border radius, and border width of your UI. Let's explore these customization options in more detail.
+Ospi provides customization options for adjusting the color, border radius, and border width of your UI. Let's explore these customization options in more detail.
 
 ## Customize color scheme to match your brand
 
-Customize the meeting's color scheme to match your brand and theme with ProductDB. You can specify four sets of color values:
+Customize the meeting's color scheme to match your brand and theme with Ospi. You can specify four sets of color values:
 
 - brandColor: Primary brand color.
 - backgroundColor: Primary background color.
@@ -126,7 +126,7 @@ text = TextColor(
 
 ## Customize border radius of elements in the meeting
 
-To customize the border radius of elements in your ProductDB meeting, follow these steps:
+To customize the border radius of elements in your Ospi meeting, follow these steps:
 
 1. Create the `DyteUITokens` object:
 
@@ -135,9 +135,9 @@ val tokens = DyteUITokens(colors = dyteColors, borderRadius = BorderRadiusToken.
 ```
 
 - `dyteColors`: Represents the color scheme for your meeting.
-- `borderRadius`: Defines the desired border radius. By specifying the desired border radius value in the borderRadius token, you can customize the border radius of elements in your ProductDB meeting.
+- `borderRadius`: Defines the desired border radius. By specifying the desired border radius value in the borderRadius token, you can customize the border radius of elements in your Ospi meeting.
 
-2. Configure `DyteUIKit` then build and load the ProductDB UI.
+2. Configure `DyteUIKit` then build and load the Ospi UI.
 
 ```kotlin {10}
 val meetingInfo = DyteMeetingInfoV2(
@@ -158,5 +158,5 @@ dyteUIKit.loadUi()
 
 <head>
   <title>Android Customize your Meeting UI</title>
-  <meta name="description" content="Customize the meeting UI of your Android application using ProductDB Docs as your guide."/>
+  <meta name="description" content="Customize the meeting UI of your Android application using Ospi Docs as your guide."/>
 </head>

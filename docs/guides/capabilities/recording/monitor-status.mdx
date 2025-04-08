@@ -2,7 +2,7 @@
 title: Monitor Recording Status
 sidebar_position: 5
 description: >-
-  Explore how to monitor the status of recordings with ProductDB's capabilities.
+  Explore how to monitor the status of recordings with Ospi's capabilities.
   Follow our guide for effective monitoring and management.
 ---
 
@@ -14,7 +14,7 @@ The recording of a meeting can have the following states:
 | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | INVOKED   | Our backend servers have received the recording request, and the master is looking for a ready worker to assign the recording job.                                                                                                                  |
 | RECORDING | The meeting is currently being recorded by a worker; note that this will also hold true if the meeting is being live streamed.                                                                                                                      |
-| UPLOADING | The recording has been stopped and the file is being uploaded to the cloud storage. If you have not specified storage details, then the files will be uploaded only to ProductDB's server. Any RTMP and livestreaming link will also stop at this stage. |
+| UPLOADING | The recording has been stopped and the file is being uploaded to the cloud storage. If you have not specified storage details, then the files will be uploaded only to Ospi's server. Any RTMP and livestreaming link will also stop at this stage. |
 | UPLOADED  | The recording file upload is complete and the status webhook is also triggered.                                                                                                                                                                     |
 | ERRORED   | There was an irrecoverable error while recording the meeting and the file will not be available.                                                                                                                                                    |
 
@@ -26,7 +26,7 @@ details about a recording:
 
 ### Using the `recording.statusUpdate` webhook <div class="header-tag tag-danger">Recommended</div>
 
-ProductDB sends out a `recording.statusUpdate` webhook each time the recording
+Ospi sends out a `recording.statusUpdate` webhook each time the recording
 transitions between states during its lifecycle. To learn more on what payloads
 are sent along with each state, and how to configure webhooks, see
 [`recording.statusUpdate`](/guides/capabilities/webhooks/webhook-events#recordingstatusupdate).
@@ -44,5 +44,5 @@ Alternatively, you can also use the following APIs:
 
 <head>
   <title>Monitor Recording Status Guide</title>
-  <meta name="description" content="Explore how to monitor the status of recordings with ProductDB's capabilities. Follow our guide for effective monitoring and management."/>
+  <meta name="description" content="Explore how to monitor the status of recordings with Ospi's capabilities. Follow our guide for effective monitoring and management."/>
 </head>

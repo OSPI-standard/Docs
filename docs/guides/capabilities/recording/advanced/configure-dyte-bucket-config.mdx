@@ -1,15 +1,15 @@
 ---
-title: Disable upload to ProductDB's bucket
+title: Disable upload to Ospi's bucket
 sidebar_position: 8
 slug: /capabilities/recording/configure-dyte-bucket-config
 description: >-
-  Explore how to configure ProductDB bucket settings for recording. Follow our guide
+  Explore how to configure Ospi bucket settings for recording. Follow our guide
   for effective bucket configuration.
 ---
 
-Once the recording is complete, by default, ProductDB uploads all recordings to ProductDB's AWS S3 bucket. Additionally, a presigned URL is generated with a 7-day expiry. The recording can be accessed using the [`downloadUrl`](/api/?v=v2#/operations/start_recording) associated with each recording.
+Once the recording is complete, by default, Ospi uploads all recordings to Ospi's AWS S3 bucket. Additionally, a presigned URL is generated with a 7-day expiry. The recording can be accessed using the [`downloadUrl`](/api/?v=v2#/operations/start_recording) associated with each recording.
 
-However, ProductDB provides users with the flexibility to choose whether or not to upload their recordings to ProductDB's S3 bucket. If you wish to disable uploads to ProductDB's bucket, you can set the `dyte_bucket_config` parameter to false in the [Start Recording endpoint](/api/?v=v2#/operations/start_recording).
+However, Ospi provides users with the flexibility to choose whether or not to upload their recordings to Ospi's S3 bucket. If you wish to disable uploads to Ospi's bucket, you can set the `dyte_bucket_config` parameter to false in the [Start Recording endpoint](/api/?v=v2#/operations/start_recording).
 
 For example:
 
@@ -23,13 +23,13 @@ For example:
 
 :::info note
 
-If you haven't specified an external storage configuration and also disabled uploads to ProductDB's bucket, then the recording will not be uploaded to any location. It is considered as an invalid recording.
+If you haven't specified an external storage configuration and also disabled uploads to Ospi's bucket, then the recording will not be uploaded to any location. It is considered as an invalid recording.
 
 For more information on how to set your extrenal storage configuration, see [Publish Recorded File to Your Cloud Provider](/guides/capabilities/recording/custom-cloud-storage).
 
 :::
 
 <head>
-  <title>Manage ProductDB's Default Recording Upload Settings Guide</title>
-  <meta name="description" content="Explore how to configure ProductDB bucket settings for recording. Follow our guide for effective bucket configuration."/>
+  <title>Manage Ospi's Default Recording Upload Settings Guide</title>
+  <meta name="description" content="Explore how to configure Ospi bucket settings for recording. Follow our guide for effective bucket configuration."/>
 </head>

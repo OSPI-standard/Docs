@@ -2,7 +2,7 @@
 title: Initialize Plugin
 sidebar_position: 1
 description: >-
-  Initialize your plugin with ProductDB Plugin SDK using our basic usage guide.
+  Initialize your plugin with Ospi Plugin SDK using our basic usage guide.
   Ensure a smooth start to your plugin integration process.
 ---
 
@@ -27,7 +27,7 @@ The following is the schema for the `config` object :
 | authToken | string   | Authorisation token.                                 | auto-filled by client SDK. | false        |
 | baseURL   | string   | Server URL being used by the parent app.             | auto-filled by client SDK. | false        |
 | parentURL | string   | URL of the parent app the plugin is opened in.       | auto-filled by client SDK. | false        |
-| pluginId  | string   | ID generated using ProductDB CLI.                         | auto-filled by client SDK. | false        |
+| pluginId  | string   | ID generated using Ospi CLI.                         | auto-filled by client SDK. | false        |
 | ready     | boolean  | `true` when the plugin initialization has completed. | `true`                     | false        |
 
 ```jsx
@@ -41,6 +41,6 @@ await plugin.stores.populate('storeName');
   <title>Plugin SDK Initialize Plugin</title>
   <meta
     name="description"
-    content="Initialize your plugin with ProductDB Plugin SDK using our basic usage guide. Ensure a smooth start to your plugin integration process."
+    content="Initialize your plugin with Ospi Plugin SDK using our basic usage guide. Ensure a smooth start to your plugin integration process."
   />
 </head>

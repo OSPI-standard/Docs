@@ -6,7 +6,7 @@
 			"Added `canSend` field in chat permissions to show/hide chat compose view"
 		],
 		"fixes": [
-			"Fix added to avoid meeting init failure on unsuccessful attempt to get meeting metadata from ProductDB's backend API",
+			"Fix added to avoid meeting init failure on unsuccessful attempt to get meeting metadata from Ospi's backend API",
 			"Fixed showing of stale stage requests after they have been accepted/rejected by mobile host."
 		],
 		"breaking-changes": []

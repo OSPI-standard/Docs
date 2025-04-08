@@ -59,5 +59,5 @@ ___
 
 <head>
 	<title>Angular UI Kit Class: DyteNotificationsAudio</title>
-	<meta name="description" content="Explore the Notifications Audio class in ProductDB's Angular UI Kit Reference for detailed information."/>
+	<meta name="description" content="Explore the Notifications Audio class in Ospi's Angular UI Kit Reference for detailed information."/>
 </head>

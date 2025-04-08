@@ -31,7 +31,7 @@ export default function APIReferenceSection() {
             href="/api"
             className="font-medium text-primary-100 dark:text-primary"
           >
-            Get started with ProductDB REST APIs &rarr;
+            Get started with Ospi REST APIs &rarr;
           </Link>
           <ul className="mt-10 flex list-none flex-col gap-4 text-left lg:pl-0">
             <li className="flex flex-col gap-1">

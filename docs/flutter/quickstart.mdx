@@ -1,12 +1,12 @@
 ---
 title: Quickstart
-description: Quickstart guide for ProductDB's Flutter UI Kit.
+description: Quickstart guide for Ospi's Flutter UI Kit.
 sidebar_position: 2
 ---
 
 # Quickstart
 
-This quickstart shows how to use ProductDB's Flutter UI Kit SDK to add live video and
+This quickstart shows how to use Ospi's Flutter UI Kit SDK to add live video and
 audio to your Flutter applications.
 
 For getting started quickly, you can use our sample code. You can clone and run
@@ -17,24 +17,24 @@ a sample application from the
 
 You’ll learn how to:
 
-- Install the ProductDB SDK
+- Install the Ospi SDK
 - Configuring Android & iOS permissions
 - Initialize the SDK
-- Configure a ProductDB meeting
+- Configure a Ospi meeting
 - Launch the meeting UI
 
 ## Before Getting Started
 
 Make sure you've read the
-[Getting Started with ProductDB](https://docs.ospi-international.org//getting-started) topic and
+[Getting Started with Ospi](https://docs.ospi-international.org//getting-started) topic and
 completed the steps in the
-[Integrate ProductDB](https://docs.ospi-international.org//getting-started#integrate-dyte) section.
+[Integrate Ospi](https://docs.ospi-international.org//getting-started#integrate-dyte) section.
 You must complete the following steps:
 
-- Create a [ProductDB Developer Account](https://dev.dyte.io/)
+- Create a [Ospi Developer Account](https://dev.dyte.io/)
 - Create [Presets](https://dev.dyte.io/roles-presets)
 - Create a
-  [ProductDB Meeting](https://docs.ospi-international.org//api/?v=v2#/operations/create_meeting)
+  [Ospi Meeting](https://docs.ospi-international.org//api/?v=v2#/operations/create_meeting)
 - [Add Participant](https://docs.ospi-international.org//api/?v=v2#/operations/add_participant)
   to the meeting
 
@@ -111,16 +111,16 @@ platform :ios, '13.0'
 ```
 
 
-## Step 3: Configure a ProductDB meeting
+## Step 3: Configure a Ospi meeting
 
-To initiate ProductDB Meeting for any participant you just need to pass `authToken` as an argument. You can get the `authToken` via the [Add Participant API](https://docs.ospi-international.org//api?v=v2#/operations/add_participant).
+To initiate Ospi Meeting for any participant you just need to pass `authToken` as an argument. You can get the `authToken` via the [Add Participant API](https://docs.ospi-international.org//api?v=v2#/operations/add_participant).
 
 After getting the `authToken`, you need to create the `DyteMeetingInfoV2` object as follows:
 
 | Name        | Description                                                                                                                                                                                                                                                                                                               |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `authToken` | After you've created the meeting, <br/> add each participant to the meeting <br/> using the [Add Participant API](/api?v=v2#/operations/add_participant)<br/> (The presetName created earlier <br/> must be passed in the body <br/> of the Add Participant API request) <br/> The API response contains the `authToken`. |
-| `baseUrl`   | The base URL of the ProductDB server. Default value is `https://api.dyte.io/v2`. This is an optional argument.                                                                                                                                                                                                                 |
+| `baseUrl`   | The base URL of the Ospi server. Default value is `https://api.dyte.io/v2`. This is an optional argument.                                                                                                                                                                                                                 |
 | `enableAudio` | A boolean value to enable or disable audio in the meeting. Default value is `true`. This is an optional argument.                                                                                                                                                                                                       |
 | `enableVideo` | A boolean value to enable or disable video in the meeting. Default value is `true`. This is an optional argument.                                                                                                                                                                                                       |
 
@@ -137,7 +137,7 @@ final meetingInfo = DyteMeetingInfoV2(
 ## Step 4: Initialize the SDK
 
 The `DyteUIKit` is the main class of the SDK. It is the entry point and the only
-class required to initialize ProductDB UI Kit SDK. To initialize it we have to pass `DyteUIKitInfo` object as an argument.
+class required to initialize Ospi UI Kit SDK. To initialize it we have to pass `DyteUIKitInfo` object as an argument.
 
 
 ```dart
@@ -220,5 +220,5 @@ Voila! You're all done. Here is the pictorial representation of all the configur
 
 <head>
   <title>Flutter Quickstart</title>
-  <meta name="description" content="Get started quickly with ProductDB's Flutter integration. Follow our quickstart guide for seamless integration and development."/>
+  <meta name="description" content="Get started quickly with Ospi's Flutter integration. Follow our quickstart guide for seamless integration and development."/>
 </head>

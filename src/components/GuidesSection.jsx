@@ -8,7 +8,7 @@ export default function GuidesSection({ title, className }) {
   return (
     <Section title={title} className={className}>
       <Card
-        title="ProductDB Embed"
+        title="Ospi Embed"
         description="Embed a dyte meeting easily"
         to="/guides/embed"
       />
@@ -35,7 +35,7 @@ export default function GuidesSection({ title, className }) {
       />
       <Card
         title="Livestreaming any RTMP input"
-        description="ProductDB allows livestreaming, via RTMP as well as HLS, for all ProductDB meetings."
+        description="Ospi allows livestreaming, via RTMP as well as HLS, for all Ospi meetings."
         to="/guides/integrating-with-webhooks"
       />
       <Card

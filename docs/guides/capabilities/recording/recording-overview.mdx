@@ -2,23 +2,23 @@
 title: Recording Overview
 sidebar_position: 1
 description: >-
-  Learn about the overview of recording capabilities with ProductDB. Follow our guide
+  Learn about the overview of recording capabilities with Ospi. Follow our guide
   for an in-depth understanding of recording features.
 ---
 
-ProductDB records the audio and video of multiple users in a meeting, as well as
-interactions with ProductDB plugins, in a single file using composite recording mode.
+Ospi records the audio and video of multiple users in a meeting, as well as
+interactions with Ospi plugins, in a single file using composite recording mode.
 
-## How does ProductDB recording work?
+## How does Ospi recording work?
 
-ProductDB recordings are powered by anonymous virtual bot users who join your
-meeting, record it, and then upload it to ProductDB's AWS S3 bucket. For video files,
+Ospi recordings are powered by anonymous virtual bot users who join your
+meeting, record it, and then upload it to Ospi's AWS S3 bucket. For video files,
 we currently support the
 [H.264](https://en.wikipedia.org/wiki/Advanced_Video_Coding) and
 [VP8](https://en.wikipedia.org/wiki/VP8) codecs.
 
-1. When the recording is finished, it is stored in ProductDB's AWS S3 bucket.
-2. ProductDB generates a downloadable link from which the recording can be
+1. When the recording is finished, it is stored in Ospi's AWS S3 bucket.
+2. Ospi generates a downloadable link from which the recording can be
    downloaded. You can get the download URL using the
    [Fetch details of a recording API](/api?v=v2#/operations/get_one_recording)
    or from the [Developer Portal](https://dev.dyte.io/).
@@ -28,7 +28,7 @@ we currently support the
 
    - Using the
      [`recording.statusUpdate`](/guides/capabilities/webhooks/webhook-events#recordingstatusupdate)
-     webhook. ProductDB uses webhooks to notify your application when an event
+     webhook. Ospi uses webhooks to notify your application when an event
      happens.
    - Using the
      [Fetch active recording API](/api?v=v2#/operations/get_active_recording).
@@ -36,7 +36,7 @@ we currently support the
      [Developer Portal](https://dev.dyte.io/).
 
 3. Download the recording from the download url and store it to your cloud
-   storage. The file is kept on ProductDB's server for seven days before being
+   storage. The file is kept on Ospi's server for seven days before being
    deleted.
 
    You can get the download URL using the
@@ -63,5 +63,5 @@ A typical workflow for recording a meeting involves the following steps:
 
 <head>
   <title>Recording Overview Guide</title>
-  <meta name="description" content="Learn about the overview of recording capabilities with ProductDB. Follow our guide for an in-depth understanding of recording features."/>
+  <meta name="description" content="Learn about the overview of recording capabilities with Ospi. Follow our guide for an in-depth understanding of recording features."/>
 </head>

@@ -15,7 +15,7 @@ import Link from '@docusaurus/Link';
 export default function Homepage() {
   return (
     <Layout
-      title="ProductDB Documentation"
+      title="Ospi Documentation"
       wrapperClassName="homepage flex flex-col"
       noFooter
     >

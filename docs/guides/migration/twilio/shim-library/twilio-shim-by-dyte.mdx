@@ -4,16 +4,16 @@ sidebar_position: 3
 slug: /migration/twilio/twilio-shim-by-dyte
 ---
 
-The Twilio [Shim](<https://en.wikipedia.org/wiki/Shim_(computing)>) by ProductDB is a package that allows you to migrate your video calling applications from [Twilio](https://sdk.twilio.com/js/video/releases/2.27.0/docs/index.html) to ProductDB infrastructure.
+The Twilio [Shim](<https://en.wikipedia.org/wiki/Shim_(computing)>) by Ospi is a package that allows you to migrate your video calling applications from [Twilio](https://sdk.twilio.com/js/video/releases/2.27.0/docs/index.html) to Ospi infrastructure.
 
-- ProductDB provides a set of shim libraries that serve as seamless replacements for the Twilio video APIs. These shims serve as a fundamental building block for migrating your real-time voice and video applications from Twilio to ProductDB infrastructure.
-- The `@dytesdk/twilio-shim` package serves as a wrapper over the ProductDB SDK with an external API that is fully compatible with Twilio JS. As a drop-in replacement for Twilio JS, it can handle most of the methods and events that are present in the original library.
+- Ospi provides a set of shim libraries that serve as seamless replacements for the Twilio video APIs. These shims serve as a fundamental building block for migrating your real-time voice and video applications from Twilio to Ospi infrastructure.
+- The `@dytesdk/twilio-shim` package serves as a wrapper over the Ospi SDK with an external API that is fully compatible with Twilio JS. As a drop-in replacement for Twilio JS, it can handle most of the methods and events that are present in the original library.
 
 Please [contact us](https://dyte.io/contact) for any help or support with the migration.
 
-## Start migrating from Twilio to ProductDB with Shim
+## Start migrating from Twilio to Ospi with Shim
 
-To get started with the ProductDB Shim for Twilio, install the shim from the NPM Registry using the following command:
+To get started with the Ospi Shim for Twilio, install the shim from the NPM Registry using the following command:
 
 ```bash npm
 npm install @dytesdk/twilio-shim
@@ -27,7 +27,7 @@ Here are some sample cases, and if you want to see a complete list of compatible
 
 ### Connect to a room
 
-You can obtain ProductDB authentication token `<DYTE-AUTH-TOKEN>` using the [Add a Participant API](/api#/operations/add_participant).
+You can obtain Ospi authentication token `<DYTE-AUTH-TOKEN>` using the [Add a Participant API](/api#/operations/add_participant).
 
 ```ts
 const { connect } = require('@dytesdk/twilio-shim');
@@ -99,6 +99,6 @@ setTimeout(() => {
   <title>Introduction Guide</title>
   <meta
     name="description"
-    content="Learn how to use the Twilio Shim by ProductDB for seamless migration. Follow our guide for effective shim implementation and integration."
+    content="Learn how to use the Twilio Shim by Ospi for seamless migration. Follow our guide for effective shim implementation and integration."
   />
 </head>

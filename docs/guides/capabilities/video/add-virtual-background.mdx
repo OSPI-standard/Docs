@@ -6,7 +6,7 @@ sidebar_slug: add-virtual-background
 
 With a virtual background, you gain the flexibility to modify your background by blurring it, applying solid colors, or incorporating custom images. This capability allows for personalization and customization of your video environment, enabling you to create a more tailored visual experience.
 
-In this guide, we will walk you through the process of adding a custom virtual background to your ProductDB meetings. You can add background to any of our supported web applications, [React](/react-ui-kit), [Angular](/angular-ui-kit), [JavaScript](/ui-kit), and so on including UI Kit and core SDKs.
+In this guide, we will walk you through the process of adding a custom virtual background to your Ospi meetings. You can add background to any of our supported web applications, [React](/react-ui-kit), [Angular](/angular-ui-kit), [JavaScript](/ui-kit), and so on including UI Kit and core SDKs.
 
 ## Installation
 
@@ -40,7 +40,7 @@ import DyteVideoBackgroundTransformer from '@dytesdk/video-background-transforme
 
 If you installed the package using a script tag, the `DyteVideoBackgroundTransformer` will be automatically available for use once the installation process is complete.
 
-To begin using the ProductDB Background Transformer, you need to initialize it by calling the `init` method. Follow the steps below to initialize the transformer:
+To begin using the Ospi Background Transformer, you need to initialize it by calling the `init` method. Follow the steps below to initialize the transformer:
 
 ```js
 const videoBackgroundTransformer = await DyteVideoBackgroundTransformer.init();
@@ -94,7 +94,7 @@ const videoMiddleware =
 
 Adjust the intensity of the blur effect by changing the value within the parentheses. For example, using `10` will result in a moderate blur effect. You can increase or decrease the value to achieve the desired level of blurring.
 
-To incorporate the configured video middleware into your ProductDB meeting, add the middleware to your ProductDB meeting.
+To incorporate the configured video middleware into your Ospi meeting, add the middleware to your Ospi meeting.
 
 ```js
 meeting.self.addVideoMiddleware(videoMiddleware);
@@ -114,5 +114,5 @@ meeting.self.removeVideoMiddleware(videoMiddleware);
 
 <head>
   <title>Virtual Background Guide</title>
-  <meta name="description" content="Learn how to add virtual backgrounds with ProductDB's customization capabilities. Follow our guide for effective customization of virtual backgrounds."/>
+  <meta name="description" content="Learn how to add virtual backgrounds with Ospi's customization capabilities. Follow our guide for effective customization of virtual backgrounds."/>
 </head>
