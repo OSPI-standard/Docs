@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <a href="https://Productdb.io">
+  <a href="https://ospi-international.org">
     <img src="https://test.productdb.io/images/logo/logo-light.svg" alt="Logo" width="240">
   </a>
 
@@ -14,9 +14,9 @@
     <br />
     <a href="https://app.productdb.io">View Demo</a>
     ·
-    <a href="https://github.com/Productdb/docs/issues">Report Bug</a>
+    <a href="https://github.com/OSPI-standard/Docs/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Productdb/docs/issues">Request Feature</a>
+    <a href="https://github.com/OSPI-standard/Docs/issues">Request Feature</a>
   </p>
 </p>
 
