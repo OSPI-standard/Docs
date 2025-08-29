@@ -2,5 +2,5 @@
   "position": 3,
   "label": "Product Details",
   "collapsible": true,
-  "className": "classification_sidebar_header"
+  "className": "details_sidebar_header"
 }
