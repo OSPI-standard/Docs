@@ -24,7 +24,7 @@ const PRODUCTS = [
     text: 'Retrieve product classification models directly through the API. Access standardized categories, attributes, and hierarchies to ensure consistent product structuring and interoperability.',
   },
   {
-    title: 'Product Information',
+    title: 'Product Details',
     link: '/guides/classification/intro-classification',
     icon: BoxRegular,
     lightImage: '/static/landing-page/hero/video-graphic.png',
