@@ -5,6 +5,7 @@ import {
   LiveRegular,
   MicRegular,
   VideoRegular,
+  BoxRegular,
 CartRegular,
 ClassificationRegular,
 ContentViewRegular,
@@ -25,7 +26,7 @@ const PRODUCTS = [
   {
     title: 'Product Information',
     link: '/guides/classification/intro-classification',
-    icon: CubeTreeRegular,
+    icon: BoxRegular,
     lightImage: '/static/landing-page/hero/video-graphic.png',
     darkImage: '/static/landing-page/hero/video-graphic-dark.png',
     text: 'Access detailed product information through the API. Retrieve descriptions, specifications, media, and documents to power rich and reliable product experiences.',
