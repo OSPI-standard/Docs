@@ -25,7 +25,7 @@ const PRODUCTS = [
   },
   {
     title: 'Product Details',
-    link: '/guides/classification/intro-details',
+    link: '/guides/product-details/intro-details',
     icon: BoxRegular,
     lightImage: '/static/landing-page/hero/video-graphic.png',
     darkImage: '/static/landing-page/hero/video-graphic-dark.png',
