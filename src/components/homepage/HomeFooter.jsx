@@ -342,7 +342,7 @@ function Links({ name, links, isAccordion }) {
 
 export default function Footer() {
   return (
-    <footer className="bg-[#F4F7FF] dark:bg-[#191919]">
+    <footer className="bg-[#FBC1C5] dark:bg-[#191919]">
       <div className="mx-auto flex w-full max-w-[1080px] flex-col px-6 py-12">
         <div className="mb-12 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <ThemedImage
