@@ -660,6 +660,7 @@ const config = {
         appId: 'HMAHPZYM3O',
         apiKey: '652b0933994ce027f60d4d84000c8553',
         indexName: 'docs',
+        askAi:'7xdfOp8JgNFT'
         contextualSearch: true,
         searchParameters: {},
       },
