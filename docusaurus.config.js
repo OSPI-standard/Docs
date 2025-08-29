@@ -657,9 +657,9 @@ const config = {
         ],
       },
       algolia: {
-        appId: 'SJH8R94RSV',
-        apiKey: '7b081eda2c0e7917a650fd2ab20b5d6f',
-        indexName: 'productdb',
+        appId: 'HMAHPZYM3O',
+        apiKey: '652b0933994ce027f60d4d84000c8553',
+        indexName: 'Docs',
         contextualSearch: true,
         searchParameters: {},
       },
