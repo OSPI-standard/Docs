@@ -37,7 +37,7 @@ const PRODUCTS = [
     icon: CartRegular,
     lightImage: '/static/landing-page/hero/voice-graphic.png',
     darkImage: '/static/landing-page/hero/voice-graphic-dark.png',
-    text: 'Connect systems through the OSPI API to enable commerce. Place product orders directly with the appropriate supplier and streamline procurement workflows.',
+    text: 'Connect systems through the API to enable commerce. Place product orders directly with the appropriate supplier and streamline procurement workflows.',
   },
   {
     title: 'Content',
@@ -45,7 +45,7 @@ const PRODUCTS = [
     icon: ContentViewRegular,
     lightImage: '/static/landing-page/hero/livestream-graphic.png',
     darkImage: '/static/landing-page/hero/livestream-graphic-dark.png',
-    text: 'Distribute product content via the OSPI API. Share launches, promotions, and campaigns directly with retailers to boost visibility and engagement.',
+    text: 'Distribute product content via the API. Share launches, promotions, and campaigns directly with retailers to boost visibility and engagement.',
   },
   {
     title: 'Communication',
@@ -54,7 +54,7 @@ const PRODUCTS = [
     icon: ChatMultipleRegular,
     lightImage: '/static/landing-page/hero/chat-graphic.png',
     darkImage: '/static/landing-page/hero/chat-graphic-dark.png',
-    text: 'acilitate direct communication through the OSPI API. Connect suppliers, retailers, and partners seamlessly to simplify collaboration and support.',
+    text: 'acilitate direct communication through the API. Connect suppliers, retailers, and partners seamlessly to simplify collaboration and support.',
   },
 ];
 
